@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_practitioner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    >
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/person_ex"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="top"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="@color/black_trans80">
+                </LinearLayout>
+            <ImageButton
+                android:id="@+id/imgEditProfil"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/edit_profile"
+                android:layout_gravity="top|right"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/person_ex"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/username_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barbie"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:src="@drawable/blue_scalloped_edge"
+                android:layout_gravity="bottom"
+                android:scaleType="fitXY"/>
+
+            <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@color/black_trans80">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="TextView"
+                android:textColor="@color/shel"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="left|center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignLeft="@+id/imageView1"
+                android:text="TextView"
+                android:textColor="@color/shel"/>
+
+</LinearLayout>-->
+
+
+        </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp">
+<TextView
+    android:id="@+id/tv_fn"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Taylor"
+    android:textColor="@color/dot_dark_screen2"
+    android:padding="3dp"
+    android:textSize="20dp"
+    />
+
+    <TextView
+        android:id="@+id/tv_ln"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barbie"
+        android:textColor="@color/dot_dark_screen2"
+        android:padding="3dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tv_dob"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23-12-2000"
+        android:textColor="@color/dot_dark_screen2"
+        android:padding="3dp"
+        android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:background="@drawable/rounded_corner_blue"
+        android:layout_gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person_ex"
+       android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:id="@+id/expanded_image"
+        android:visibility="gone"
+        android:background="@drawable/rounded_corner_blue"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3299 @@
+Folder PATH listing
+Volume serial number is 3278-659F
+E:.
+|   .gitignore
+|   BookStore - Copy (4).iml
+|   BookStore.iml
+|   build.gradle
+|   gradle.properties
+|   gradlew
+|   gradlew.bat
+|   local.properties
+|   settings.gradle
+|   tree.doc
+|   
++---.gradle
+|   \---2.10
+|       +---taskArtifacts
+|       |       cache.properties
+|       |       cache.properties.lock
+|       |       fileHashes.bin
+|       |       fileSnapshots.bin
+|       |       outputFileStates.bin
+|       |       taskArtifacts.bin
+|       |       
+|       \---tasks
+|           +---_app_compileDebugAndroidTestJavaWithJavac
+|           |   +---localClassSetAnalysis
+|           |   |       localClassSetAnalysis.bin
+|           |   |       localClassSetAnalysis.lock
+|           |   |       
+|           |   \---localJarClasspathSnapshot
+|           |           localJarClasspathSnapshot.bin
+|           |           localJarClasspathSnapshot.lock
+|           |           
+|           +---_app_compileDebugJavaWithJavac
+|           |   +---localClassSetAnalysis
+|           |   |       localClassSetAnalysis.bin
+|           |   |       localClassSetAnalysis.lock
+|           |   |       
+|           |   \---localJarClasspathSnapshot
+|           |           localJarClasspathSnapshot.bin
+|           |           localJarClasspathSnapshot.lock
+|           |           
+|           \---_app_compileDebugUnitTestJavaWithJavac
+|               +---localClassSetAnalysis
+|               |       localClassSetAnalysis.bin
+|               |       localClassSetAnalysis.lock
+|               |       
+|               \---localJarClasspathSnapshot
+|                       localJarClasspathSnapshot.bin
+|                       localJarClasspathSnapshot.lock
+|                       
++---.idea
+|   |   .name
+|   |   compiler.xml
+|   |   encodings.xml
+|   |   gradle.xml
+|   |   misc.xml
+|   |   modules.xml
+|   |   runConfigurations.xml
+|   |   workspace.xml
+|   |   
+|   +---copyright
+|   |       profiles_settings.xml
+|   |       
+|   \---libraries
+|           animated_vector_drawable_23_4_0.xml
+|           appcompat_v7_23_4_0.xml
+|           cardview_v7_23_4_0.xml
+|           CircularReveal_1_1_0.xml
+|           com_amulyakhare_textdrawable_1_0_1.xml
+|           converter_gson_2_0_2.xml
+|           design_23_4_0.xml
+|           gson_2_6_2.xml
+|           hamcrest_core_1_3.xml
+|           junit_4_12.xml
+|           library_2_4_0.xml
+|           okhttp_3_2_0.xml
+|           okio_1_6_0.xml
+|           palette_v7_23_4_0.xml
+|           recyclerview_v7_23_4_0.xml
+|           retrofit_2_0_2.xml
+|           support_annotations_23_4_0.xml
+|           support_v4_23_4_0.xml
+|           support_vector_drawable_23_4_0.xml
+|           
++---app
+|   |   .gitignore
+|   |   app.iml
+|   |   build.gradle
+|   |   proguard-rules.pro
+|   |   
+|   +---build
+|   |   +---generated
+|   |   |   +---assets
+|   |   |   |   \---shaders
+|   |   |   |       +---androidTest
+|   |   |   |       |   \---debug
+|   |   |   |       \---debug
+|   |   |   +---res
+|   |   |   |   \---rs
+|   |   |   |       +---androidTest
+|   |   |   |       |   \---debug
+|   |   |   |       \---debug
+|   |   |   \---source
+|   |   |       +---aidl
+|   |   |       |   +---androidTest
+|   |   |       |   |   \---debug
+|   |   |       |   \---debug
+|   |   |       +---buildConfig
+|   |   |       |   +---androidTest
+|   |   |       |   |   \---debug
+|   |   |       |   |       \---com
+|   |   |       |   |           \---example
+|   |   |       |   |               \---zxcvbn
+|   |   |       |   |                   \---bookstore
+|   |   |       |   |                       \---test
+|   |   |       |   |                               BuildConfig.java
+|   |   |       |   |                               
+|   |   |       |   \---debug
+|   |   |       |       \---com
+|   |   |       |           \---example
+|   |   |       |               \---zxcvbn
+|   |   |       |                   \---bookstore
+|   |   |       |                           BuildConfig.java
+|   |   |       |                           
+|   |   |       +---r
+|   |   |       |   +---androidTest
+|   |   |       |   |   \---debug
+|   |   |       |   \---debug
+|   |   |       |       +---android
+|   |   |       |       |   \---support
+|   |   |       |       |       +---design
+|   |   |       |       |       |       R.java
+|   |   |       |       |       |       
+|   |   |       |       |       \---v7
+|   |   |       |       |           +---appcompat
+|   |   |       |       |           |       R.java
+|   |   |       |       |           |       
+|   |   |       |       |           +---cardview
+|   |   |       |       |           |       R.java
+|   |   |       |       |           |       
+|   |   |       |       |           \---recyclerview
+|   |   |       |       |                   R.java
+|   |   |       |       |                   
+|   |   |       |       \---com
+|   |   |       |           \---example
+|   |   |       |               \---zxcvbn
+|   |   |       |                   \---bookstore
+|   |   |       |                           R.java
+|   |   |       |                           
+|   |   |       \---rs
+|   |   |           +---androidTest
+|   |   |           |   \---debug
+|   |   |           \---debug
+|   |   +---intermediates
+|   |   |   +---assets
+|   |   |   |   +---androidTest
+|   |   |   |   |   \---debug
+|   |   |   |   \---debug
+|   |   |   +---blame
+|   |   |   |   \---res
+|   |   |   |       +---androidTest
+|   |   |   |       |   \---debug
+|   |   |   |       \---debug
+|   |   |   |           +---multi
+|   |   |   |           |       values-af.json
+|   |   |   |           |       values-am.json
+|   |   |   |           |       values-ar.json
+|   |   |   |           |       values-az-rAZ.json
+|   |   |   |           |       values-bg.json
+|   |   |   |           |       values-bn-rBD.json
+|   |   |   |           |       values-ca.json
+|   |   |   |           |       values-cs.json
+|   |   |   |           |       values-da.json
+|   |   |   |           |       values-de.json
+|   |   |   |           |       values-el.json
+|   |   |   |           |       values-en-rAU.json
+|   |   |   |           |       values-en-rGB.json
+|   |   |   |           |       values-en-rIN.json
+|   |   |   |           |       values-es-rUS.json
+|   |   |   |           |       values-es.json
+|   |   |   |           |       values-et-rEE.json
+|   |   |   |           |       values-eu-rES.json
+|   |   |   |           |       values-fa.json
+|   |   |   |           |       values-fi.json
+|   |   |   |           |       values-fr-rCA.json
+|   |   |   |           |       values-fr.json
+|   |   |   |           |       values-gl-rES.json
+|   |   |   |           |       values-gu-rIN.json
+|   |   |   |           |       values-h320dp-v13.json
+|   |   |   |           |       values-h720dp-v13.json
+|   |   |   |           |       values-hdpi-v4.json
+|   |   |   |           |       values-hi.json
+|   |   |   |           |       values-hr.json
+|   |   |   |           |       values-hu.json
+|   |   |   |           |       values-hy-rAM.json
+|   |   |   |           |       values-in.json
+|   |   |   |           |       values-is-rIS.json
+|   |   |   |           |       values-it.json
+|   |   |   |           |       values-iw.json
+|   |   |   |           |       values-ja.json
+|   |   |   |           |       values-ka-rGE.json
+|   |   |   |           |       values-kk-rKZ.json
+|   |   |   |           |       values-km-rKH.json
+|   |   |   |           |       values-kn-rIN.json
+|   |   |   |           |       values-ko.json
+|   |   |   |           |       values-ky-rKG.json
+|   |   |   |           |       values-land.json
+|   |   |   |           |       values-large-v4.json
+|   |   |   |           |       values-ldltr-v21.json
+|   |   |   |           |       values-lo-rLA.json
+|   |   |   |           |       values-lt.json
+|   |   |   |           |       values-lv.json
+|   |   |   |           |       values-mk-rMK.json
+|   |   |   |           |       values-ml-rIN.json
+|   |   |   |           |       values-mn-rMN.json
+|   |   |   |           |       values-mr-rIN.json
+|   |   |   |           |       values-ms-rMY.json
+|   |   |   |           |       values-my-rMM.json
+|   |   |   |           |       values-nb.json
+|   |   |   |           |       values-ne-rNP.json
+|   |   |   |           |       values-night-v8.json
+|   |   |   |           |       values-nl.json
+|   |   |   |           |       values-pa-rIN.json
+|   |   |   |           |       values-pl.json
+|   |   |   |           |       values-port.json
+|   |   |   |           |       values-pt-rBR.json
+|   |   |   |           |       values-pt-rPT.json
+|   |   |   |           |       values-pt.json
+|   |   |   |           |       values-ro.json
+|   |   |   |           |       values-ru.json
+|   |   |   |           |       values-si-rLK.json
+|   |   |   |           |       values-sk.json
+|   |   |   |           |       values-sl.json
+|   |   |   |           |       values-sq-rAL.json
+|   |   |   |           |       values-sr.json
+|   |   |   |           |       values-sv.json
+|   |   |   |           |       values-sw.json
+|   |   |   |           |       values-sw600dp-v13.json
+|   |   |   |           |       values-ta-rIN.json
+|   |   |   |           |       values-te-rIN.json
+|   |   |   |           |       values-th.json
+|   |   |   |           |       values-tl.json
+|   |   |   |           |       values-tr.json
+|   |   |   |           |       values-uk.json
+|   |   |   |           |       values-ur-rPK.json
+|   |   |   |           |       values-uz-rUZ.json
+|   |   |   |           |       values-v11.json
+|   |   |   |           |       values-v12.json
+|   |   |   |           |       values-v13.json
+|   |   |   |           |       values-v14.json
+|   |   |   |           |       values-v17.json
+|   |   |   |           |       values-v18.json
+|   |   |   |           |       values-v21.json
+|   |   |   |           |       values-v22.json
+|   |   |   |           |       values-v23.json
+|   |   |   |           |       values-vi.json
+|   |   |   |           |       values-w360dp-v13.json
+|   |   |   |           |       values-w480dp-v13.json
+|   |   |   |           |       values-w500dp-v13.json
+|   |   |   |           |       values-w600dp-v13.json
+|   |   |   |           |       values-w720dp-v13.json
+|   |   |   |           |       values-w820dp-v13.json
+|   |   |   |           |       values-xlarge-land-v4.json
+|   |   |   |           |       values-xlarge-v4.json
+|   |   |   |           |       values-zh-rCN.json
+|   |   |   |           |       values-zh-rHK.json
+|   |   |   |           |       values-zh-rTW.json
+|   |   |   |           |       values-zu.json
+|   |   |   |           |       values.json
+|   |   |   |           |       
+|   |   |   |           \---single
+|   |   |   |                   anim-v21.json
+|   |   |   |                   anim.json
+|   |   |   |                   color-v11.json
+|   |   |   |                   color-v23.json
+|   |   |   |                   color.json
+|   |   |   |                   drawable-hdpi-v4.json
+|   |   |   |                   drawable-ldrtl-hdpi-v17.json
+|   |   |   |                   drawable-ldrtl-mdpi-v17.json
+|   |   |   |                   drawable-ldrtl-xhdpi-v17.json
+|   |   |   |                   drawable-ldrtl-xxhdpi-v17.json
+|   |   |   |                   drawable-ldrtl-xxxhdpi-v17.json
+|   |   |   |                   drawable-mdpi-v4.json
+|   |   |   |                   drawable-v21.json
+|   |   |   |                   drawable-v23.json
+|   |   |   |                   drawable-xhdpi-v4.json
+|   |   |   |                   drawable-xxhdpi-v4.json
+|   |   |   |                   drawable-xxxhdpi-v4.json
+|   |   |   |                   drawable.json
+|   |   |   |                   layout-sw600dp-v13.json
+|   |   |   |                   layout.json
+|   |   |   |                   menu.json
+|   |   |   |                   mipmap-hdpi-v4.json
+|   |   |   |                   mipmap-mdpi-v4.json
+|   |   |   |                   mipmap-xhdpi-v4.json
+|   |   |   |                   mipmap-xxhdpi-v4.json
+|   |   |   |                   mipmap-xxxhdpi-v4.json
+|   |   |   |                   
+|   |   |   +---builds
+|   |   |   |   \---debug
+|   |   |   |       +---270365982016948
+|   |   |   |       +---270520065721136
+|   |   |   |       +---270689679834306
+|   |   |   |       |       classes.dex
+|   |   |   |       |       
+|   |   |   |       +---270887584799011
+|   |   |   |       +---270893970814355
+|   |   |   |       \---271097700865551
+|   |   |   |               classes.dex
+|   |   |   |               
+|   |   |   +---bundles
+|   |   |   |   \---debug
+|   |   |   |       \---instant-run
+|   |   |   |               AndroidManifest.xml
+|   |   |   |               
+|   |   |   +---classes
+|   |   |   |   \---debug
+|   |   |   |       +---activity
+|   |   |   |       |       activity_end.class
+|   |   |   |       |       activity_start$1.class
+|   |   |   |       |       activity_start.class
+|   |   |   |       |       AlertDialog$OnDialogDismissListener.class
+|   |   |   |       |       AlertDialog.class
+|   |   |   |       |       AnimateToolbar$1.class
+|   |   |   |       |       AnimateToolbar.class
+|   |   |   |       |       DetailAuthor$1.class
+|   |   |   |       |       DetailAuthor.class
+|   |   |   |       |       Detail_Book$1.class
+|   |   |   |       |       Detail_Book$2.class
+|   |   |   |       |       Detail_Book.class
+|   |   |   |       |       DialogManager$1.class
+|   |   |   |       |       DialogManager.class
+|   |   |   |       |       FragmentDrawer$1.class
+|   |   |   |       |       FragmentDrawer$2.class
+|   |   |   |       |       FragmentDrawer$3.class
+|   |   |   |       |       FragmentDrawer$ClickListener.class
+|   |   |   |       |       FragmentDrawer$FragmentDrawerListener.class
+|   |   |   |       |       FragmentDrawer$RecyclerTouchListener$1.class
+|   |   |   |       |       FragmentDrawer$RecyclerTouchListener.class
+|   |   |   |       |       FragmentDrawer.class
+|   |   |   |       |       LoginFormActivity$1.class
+|   |   |   |       |       LoginFormActivity$2.class
+|   |   |   |       |       LoginFormActivity$3.class
+|   |   |   |       |       LoginFormActivity.class
+|   |   |   |       |       MainActivity$1.class
+|   |   |   |       |       MainActivity.class
+|   |   |   |       |       OnScrollUpDownListener$Action.class
+|   |   |   |       |       OnScrollUpDownListener.class
+|   |   |   |       |       RegisterActivity$1.class
+|   |   |   |       |       RegisterActivity$2.class
+|   |   |   |       |       RegisterActivity$3.class
+|   |   |   |       |       RegisterActivity.class
+|   |   |   |       |       shopping_cart$ViewPagerAdapter.class
+|   |   |   |       |       shopping_cart.class
+|   |   |   |       |       SplashScreen$1.class
+|   |   |   |       |       SplashScreen$2.class
+|   |   |   |       |       SplashScreen$MyViewPagerAdapter.class
+|   |   |   |       |       SplashScreen.class
+|   |   |   |       |       
+|   |   |   |       +---adapter
+|   |   |   |       |       AuthorsAdapter$1.class
+|   |   |   |       |       AuthorsAdapter$Holder.class
+|   |   |   |       |       AuthorsAdapter.class
+|   |   |   |       |       BooksAdapter$1.class
+|   |   |   |       |       BooksAdapter$Holder.class
+|   |   |   |       |       BooksAdapter.class
+|   |   |   |       |       CategoryAdapter$Holder.class
+|   |   |   |       |       CategoryAdapter.class
+|   |   |   |       |       CustomList.class
+|   |   |   |       |       NavigationDrawerAdapter$MyViewHolder.class
+|   |   |   |       |       NavigationDrawerAdapter.class
+|   |   |   |       |       PrefManager.class
+|   |   |   |       |       SimpleRecyclerAdapter$OnItemClickListener.class
+|   |   |   |       |       SimpleRecyclerAdapter$VersionViewHolder.class
+|   |   |   |       |       SimpleRecyclerAdapter.class
+|   |   |   |       |       SquareImageView.class
+|   |   |   |       |       
+|   |   |   |       +---android
+|   |   |   |       |   \---support
+|   |   |   |       |       +---design
+|   |   |   |       |       |       R$anim.class
+|   |   |   |       |       |       R$attr.class
+|   |   |   |       |       |       R$bool.class
+|   |   |   |       |       |       R$color.class
+|   |   |   |       |       |       R$dimen.class
+|   |   |   |       |       |       R$drawable.class
+|   |   |   |       |       |       R$id.class
+|   |   |   |       |       |       R$integer.class
+|   |   |   |       |       |       R$layout.class
+|   |   |   |       |       |       R$string.class
+|   |   |   |       |       |       R$style.class
+|   |   |   |       |       |       R$styleable.class
+|   |   |   |       |       |       R.class
+|   |   |   |       |       |       
+|   |   |   |       |       \---v7
+|   |   |   |       |           +---appcompat
+|   |   |   |       |           |       R$anim.class
+|   |   |   |       |           |       R$attr.class
+|   |   |   |       |           |       R$bool.class
+|   |   |   |       |           |       R$color.class
+|   |   |   |       |           |       R$dimen.class
+|   |   |   |       |           |       R$drawable.class
+|   |   |   |       |           |       R$id.class
+|   |   |   |       |           |       R$integer.class
+|   |   |   |       |           |       R$layout.class
+|   |   |   |       |           |       R$string.class
+|   |   |   |       |           |       R$style.class
+|   |   |   |       |           |       R$styleable.class
+|   |   |   |       |           |       R.class
+|   |   |   |       |           |       
+|   |   |   |       |           +---cardview
+|   |   |   |       |           |       R$attr.class
+|   |   |   |       |           |       R$color.class
+|   |   |   |       |           |       R$dimen.class
+|   |   |   |       |           |       R$style.class
+|   |   |   |       |           |       R$styleable.class
+|   |   |   |       |           |       R.class
+|   |   |   |       |           |       
+|   |   |   |       |           \---recyclerview
+|   |   |   |       |                   R$attr.class
+|   |   |   |       |                   R$dimen.class
+|   |   |   |       |                   R$id.class
+|   |   |   |       |                   R$styleable.class
+|   |   |   |       |                   R.class
+|   |   |   |       |                   
+|   |   |   |       +---com
+|   |   |   |       |   \---example
+|   |   |   |       |       \---zxcvbn
+|   |   |   |       |           \---bookstore
+|   |   |   |       |                   BuildConfig.class
+|   |   |   |       |                   R$anim.class
+|   |   |   |       |                   R$array.class
+|   |   |   |       |                   R$attr.class
+|   |   |   |       |                   R$bool.class
+|   |   |   |       |                   R$color.class
+|   |   |   |       |                   R$dimen.class
+|   |   |   |       |                   R$drawable.class
+|   |   |   |       |                   R$id.class
+|   |   |   |       |                   R$integer.class
+|   |   |   |       |                   R$layout.class
+|   |   |   |       |                   R$menu.class
+|   |   |   |       |                   R$mipmap.class
+|   |   |   |       |                   R$string.class
+|   |   |   |       |                   R$style.class
+|   |   |   |       |                   R$styleable.class
+|   |   |   |       |                   R.class
+|   |   |   |       |                   
+|   |   |   |       +---Controller
+|   |   |   |       |       Controller.class
+|   |   |   |       |       
+|   |   |   |       +---database
+|   |   |   |       |       DatabaseBookStore.class
+|   |   |   |       |       
+|   |   |   |       +---fragment
+|   |   |   |       |       AuthorsFragment$1.class
+|   |   |   |       |       AuthorsFragment.class
+|   |   |   |       |       BooksFragment$1.class
+|   |   |   |       |       BooksFragment$2.class
+|   |   |   |       |       BooksFragment$3.class
+|   |   |   |       |       BooksFragment$4.class
+|   |   |   |       |       BooksFragment$5.class
+|   |   |   |       |       BooksFragment$6.class
+|   |   |   |       |       BooksFragment.class
+|   |   |   |       |       CategoriesFragment.class
+|   |   |   |       |       OneFragment.class
+|   |   |   |       |       ProfileFragment$1.class
+|   |   |   |       |       ProfileFragment$2.class
+|   |   |   |       |       ProfileFragment$3.class
+|   |   |   |       |       ProfileFragment$4$1.class
+|   |   |   |       |       ProfileFragment$4.class
+|   |   |   |       |       ProfileFragment.class
+|   |   |   |       |       ShopCartFragment$1.class
+|   |   |   |       |       ShopCartFragment$2.class
+|   |   |   |       |       ShopCartFragment$3.class
+|   |   |   |       |       ShopCartFragment.class
+|   |   |   |       |       ThreeFragment.class
+|   |   |   |       |       TwoFragment.class
+|   |   |   |       |       
+|   |   |   |       +---model
+|   |   |   |       |       Author.class
+|   |   |   |       |       Book.class
+|   |   |   |       |       Category.class
+|   |   |   |       |       DataContentProvider.class
+|   |   |   |       |       GeneralResponse.class
+|   |   |   |       |       LoginRespon$Data.class
+|   |   |   |       |       LoginRespon.class
+|   |   |   |       |       NavDrawerItem.class
+|   |   |   |       |       Orders.class
+|   |   |   |       |       PlaceOrder.class
+|   |   |   |       |       PurchaseResponse.class
+|   |   |   |       |       RegisterRespon$Data.class
+|   |   |   |       |       RegisterRespon.class
+|   |   |   |       |       RequestUser.class
+|   |   |   |       |       ShoppingCartEntry.class
+|   |   |   |       |       UpdateUser.class
+|   |   |   |       |       User.class
+|   |   |   |       |       UserLogin.class
+|   |   |   |       |       
+|   |   |   |       +---provider
+|   |   |   |       |       GlobalData$1.class
+|   |   |   |       |       GlobalData$2.class
+|   |   |   |       |       GlobalData$3.class
+|   |   |   |       |       GlobalData.class
+|   |   |   |       |       PrefManager.class
+|   |   |   |       |       SessionManager.class
+|   |   |   |       |       
+|   |   |   |       +---rest
+|   |   |   |       |       ApiClient.class
+|   |   |   |       |       ApiInterface.class
+|   |   |   |       |       
+|   |   |   |       \---util
+|   |   |   |               RoundedImage.class
+|   |   |   |               Util.class
+|   |   |   |               
+|   |   |   +---dependency-cache
+|   |   |   |   \---debug
+|   |   |   +---exploded-aar
+|   |   |   |   +---com.amulyakhare
+|   |   |   |   |   \---com.amulyakhare.textdrawable
+|   |   |   |   |       \---1.0.1
+|   |   |   |   |           |   AndroidManifest.xml
+|   |   |   |   |           |   
+|   |   |   |   |           +---aidl
+|   |   |   |   |           +---assets
+|   |   |   |   |           +---jars
+|   |   |   |   |           |       classes.jar
+|   |   |   |   |           |       
+|   |   |   |   |           \---res
+|   |   |   |   +---com.android.support
+|   |   |   |   |   +---animated-vector-drawable
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |       classes.jar
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   +---appcompat-v7
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   annotations.zip
+|   |   |   |   |   |       |   public.txt
+|   |   |   |   |   |       |   R.txt
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |       classes.jar
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   |           +---anim
+|   |   |   |   |   |           |       abc_fade_in.xml
+|   |   |   |   |   |           |       abc_fade_out.xml
+|   |   |   |   |   |           |       abc_grow_fade_in_from_bottom.xml
+|   |   |   |   |   |           |       abc_popup_enter.xml
+|   |   |   |   |   |           |       abc_popup_exit.xml
+|   |   |   |   |   |           |       abc_shrink_fade_out_from_bottom.xml
+|   |   |   |   |   |           |       abc_slide_in_bottom.xml
+|   |   |   |   |   |           |       abc_slide_in_top.xml
+|   |   |   |   |   |           |       abc_slide_out_bottom.xml
+|   |   |   |   |   |           |       abc_slide_out_top.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---color
+|   |   |   |   |   |           |       abc_background_cache_hint_selector_material_dark.xml
+|   |   |   |   |   |           |       abc_background_cache_hint_selector_material_light.xml
+|   |   |   |   |   |           |       abc_primary_text_disable_only_material_dark.xml
+|   |   |   |   |   |           |       abc_primary_text_disable_only_material_light.xml
+|   |   |   |   |   |           |       abc_primary_text_material_dark.xml
+|   |   |   |   |   |           |       abc_primary_text_material_light.xml
+|   |   |   |   |   |           |       abc_search_url_text.xml
+|   |   |   |   |   |           |       abc_secondary_text_material_dark.xml
+|   |   |   |   |   |           |       abc_secondary_text_material_light.xml
+|   |   |   |   |   |           |       switch_thumb_material_dark.xml
+|   |   |   |   |   |           |       switch_thumb_material_light.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---color-v11
+|   |   |   |   |   |           |       abc_background_cache_hint_selector_material_dark.xml
+|   |   |   |   |   |           |       abc_background_cache_hint_selector_material_light.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---color-v23
+|   |   |   |   |   |           |       abc_color_highlight_material.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable
+|   |   |   |   |   |           |       abc_btn_borderless_material.xml
+|   |   |   |   |   |           |       abc_btn_check_material.xml
+|   |   |   |   |   |           |       abc_btn_colored_material.xml
+|   |   |   |   |   |           |       abc_btn_default_mtrl_shape.xml
+|   |   |   |   |   |           |       abc_btn_radio_material.xml
+|   |   |   |   |   |           |       abc_cab_background_internal_bg.xml
+|   |   |   |   |   |           |       abc_cab_background_top_material.xml
+|   |   |   |   |   |           |       abc_dialog_material_background_dark.xml
+|   |   |   |   |   |           |       abc_dialog_material_background_light.xml
+|   |   |   |   |   |           |       abc_edit_text_material.xml
+|   |   |   |   |   |           |       abc_item_background_holo_dark.xml
+|   |   |   |   |   |           |       abc_item_background_holo_light.xml
+|   |   |   |   |   |           |       abc_list_selector_background_transition_holo_dark.xml
+|   |   |   |   |   |           |       abc_list_selector_background_transition_holo_light.xml
+|   |   |   |   |   |           |       abc_list_selector_holo_dark.xml
+|   |   |   |   |   |           |       abc_list_selector_holo_light.xml
+|   |   |   |   |   |           |       abc_ratingbar_full_material.xml
+|   |   |   |   |   |           |       abc_ratingbar_indicator_material.xml
+|   |   |   |   |   |           |       abc_ratingbar_small_material.xml
+|   |   |   |   |   |           |       abc_seekbar_thumb_material.xml
+|   |   |   |   |   |           |       abc_seekbar_track_material.xml
+|   |   |   |   |   |           |       abc_spinner_textfield_background_material.xml
+|   |   |   |   |   |           |       abc_switch_thumb_material.xml
+|   |   |   |   |   |           |       abc_tab_indicator_material.xml
+|   |   |   |   |   |           |       abc_textfield_search_material.xml
+|   |   |   |   |   |           |       abc_text_cursor_material.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-hdpi-v4
+|   |   |   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-ldrtl-hdpi-v17
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-ldrtl-mdpi-v17
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-ldrtl-xhdpi-v17
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-ldrtl-xxhdpi-v17
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-ldrtl-xxxhdpi-v17
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-mdpi-v4
+|   |   |   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-v21
+|   |   |   |   |   |           |       abc_action_bar_item_background_material.xml
+|   |   |   |   |   |           |       abc_btn_colored_material.xml
+|   |   |   |   |   |           |       abc_edit_text_material.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-v23
+|   |   |   |   |   |           |       abc_control_background_material.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-xhdpi-v4
+|   |   |   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-xxhdpi-v4
+|   |   |   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable-xxxhdpi-v4
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---layout
+|   |   |   |   |   |           |       abc_action_bar_title_item.xml
+|   |   |   |   |   |           |       abc_action_bar_up_container.xml
+|   |   |   |   |   |           |       abc_action_bar_view_list_nav_layout.xml
+|   |   |   |   |   |           |       abc_action_menu_item_layout.xml
+|   |   |   |   |   |           |       abc_action_menu_layout.xml
+|   |   |   |   |   |           |       abc_action_mode_bar.xml
+|   |   |   |   |   |           |       abc_action_mode_close_item_material.xml
+|   |   |   |   |   |           |       abc_activity_chooser_view.xml
+|   |   |   |   |   |           |       abc_activity_chooser_view_list_item.xml
+|   |   |   |   |   |           |       abc_alert_dialog_button_bar_material.xml
+|   |   |   |   |   |           |       abc_alert_dialog_material.xml
+|   |   |   |   |   |           |       abc_dialog_title_material.xml
+|   |   |   |   |   |           |       abc_expanded_menu_layout.xml
+|   |   |   |   |   |           |       abc_list_menu_item_checkbox.xml
+|   |   |   |   |   |           |       abc_list_menu_item_icon.xml
+|   |   |   |   |   |           |       abc_list_menu_item_layout.xml
+|   |   |   |   |   |           |       abc_list_menu_item_radio.xml
+|   |   |   |   |   |           |       abc_popup_menu_item_layout.xml
+|   |   |   |   |   |           |       abc_screen_content_include.xml
+|   |   |   |   |   |           |       abc_screen_simple.xml
+|   |   |   |   |   |           |       abc_screen_simple_overlay_action_mode.xml
+|   |   |   |   |   |           |       abc_screen_toolbar.xml
+|   |   |   |   |   |           |       abc_search_dropdown_item_icons_2line.xml
+|   |   |   |   |   |           |       abc_search_view.xml
+|   |   |   |   |   |           |       abc_select_dialog_material.xml
+|   |   |   |   |   |           |       notification_media_action.xml
+|   |   |   |   |   |           |       notification_media_cancel_action.xml
+|   |   |   |   |   |           |       notification_template_big_media.xml
+|   |   |   |   |   |           |       notification_template_big_media_narrow.xml
+|   |   |   |   |   |           |       notification_template_lines.xml
+|   |   |   |   |   |           |       notification_template_media.xml
+|   |   |   |   |   |           |       notification_template_part_chronometer.xml
+|   |   |   |   |   |           |       notification_template_part_time.xml
+|   |   |   |   |   |           |       select_dialog_item_material.xml
+|   |   |   |   |   |           |       select_dialog_multichoice_material.xml
+|   |   |   |   |   |           |       select_dialog_singlechoice_material.xml
+|   |   |   |   |   |           |       support_simple_spinner_dropdown_item.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values
+|   |   |   |   |   |           |       values.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-af
+|   |   |   |   |   |           |       values-af.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-am
+|   |   |   |   |   |           |       values-am.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ar
+|   |   |   |   |   |           |       values-ar.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-az-rAZ
+|   |   |   |   |   |           |       values-az-rAZ.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-bg
+|   |   |   |   |   |           |       values-bg.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-bn-rBD
+|   |   |   |   |   |           |       values-bn-rBD.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ca
+|   |   |   |   |   |           |       values-ca.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-cs
+|   |   |   |   |   |           |       values-cs.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-da
+|   |   |   |   |   |           |       values-da.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-de
+|   |   |   |   |   |           |       values-de.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-el
+|   |   |   |   |   |           |       values-el.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-en-rAU
+|   |   |   |   |   |           |       values-en-rAU.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-en-rGB
+|   |   |   |   |   |           |       values-en-rGB.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-en-rIN
+|   |   |   |   |   |           |       values-en-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-es
+|   |   |   |   |   |           |       values-es.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-es-rUS
+|   |   |   |   |   |           |       values-es-rUS.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-et-rEE
+|   |   |   |   |   |           |       values-et-rEE.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-eu-rES
+|   |   |   |   |   |           |       values-eu-rES.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-fa
+|   |   |   |   |   |           |       values-fa.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-fi
+|   |   |   |   |   |           |       values-fi.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-fr
+|   |   |   |   |   |           |       values-fr.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-fr-rCA
+|   |   |   |   |   |           |       values-fr-rCA.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-gl-rES
+|   |   |   |   |   |           |       values-gl-rES.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-gu-rIN
+|   |   |   |   |   |           |       values-gu-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-h320dp-v13
+|   |   |   |   |   |           |       values-h320dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-h720dp-v13
+|   |   |   |   |   |           |       values-h720dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-hdpi-v4
+|   |   |   |   |   |           |       values-hdpi-v4.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-hi
+|   |   |   |   |   |           |       values-hi.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-hr
+|   |   |   |   |   |           |       values-hr.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-hu
+|   |   |   |   |   |           |       values-hu.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-hy-rAM
+|   |   |   |   |   |           |       values-hy-rAM.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-in
+|   |   |   |   |   |           |       values-in.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-is-rIS
+|   |   |   |   |   |           |       values-is-rIS.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-it
+|   |   |   |   |   |           |       values-it.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-iw
+|   |   |   |   |   |           |       values-iw.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ja
+|   |   |   |   |   |           |       values-ja.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ka-rGE
+|   |   |   |   |   |           |       values-ka-rGE.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-kk-rKZ
+|   |   |   |   |   |           |       values-kk-rKZ.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-km-rKH
+|   |   |   |   |   |           |       values-km-rKH.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-kn-rIN
+|   |   |   |   |   |           |       values-kn-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ko
+|   |   |   |   |   |           |       values-ko.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ky-rKG
+|   |   |   |   |   |           |       values-ky-rKG.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-land
+|   |   |   |   |   |           |       values-land.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-large-v4
+|   |   |   |   |   |           |       values-large-v4.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ldltr-v21
+|   |   |   |   |   |           |       values-ldltr-v21.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-lo-rLA
+|   |   |   |   |   |           |       values-lo-rLA.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-lt
+|   |   |   |   |   |           |       values-lt.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-lv
+|   |   |   |   |   |           |       values-lv.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-mk-rMK
+|   |   |   |   |   |           |       values-mk-rMK.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ml-rIN
+|   |   |   |   |   |           |       values-ml-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-mn-rMN
+|   |   |   |   |   |           |       values-mn-rMN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-mr-rIN
+|   |   |   |   |   |           |       values-mr-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ms-rMY
+|   |   |   |   |   |           |       values-ms-rMY.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-my-rMM
+|   |   |   |   |   |           |       values-my-rMM.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-nb
+|   |   |   |   |   |           |       values-nb.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ne-rNP
+|   |   |   |   |   |           |       values-ne-rNP.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-night-v8
+|   |   |   |   |   |           |       values-night-v8.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-nl
+|   |   |   |   |   |           |       values-nl.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-pa-rIN
+|   |   |   |   |   |           |       values-pa-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-pl
+|   |   |   |   |   |           |       values-pl.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-port
+|   |   |   |   |   |           |       values-port.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-pt
+|   |   |   |   |   |           |       values-pt.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-pt-rBR
+|   |   |   |   |   |           |       values-pt-rBR.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-pt-rPT
+|   |   |   |   |   |           |       values-pt-rPT.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ro
+|   |   |   |   |   |           |       values-ro.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ru
+|   |   |   |   |   |           |       values-ru.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-si-rLK
+|   |   |   |   |   |           |       values-si-rLK.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sk
+|   |   |   |   |   |           |       values-sk.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sl
+|   |   |   |   |   |           |       values-sl.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sq-rAL
+|   |   |   |   |   |           |       values-sq-rAL.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sr
+|   |   |   |   |   |           |       values-sr.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sv
+|   |   |   |   |   |           |       values-sv.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sw
+|   |   |   |   |   |           |       values-sw.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-sw600dp-v13
+|   |   |   |   |   |           |       values-sw600dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ta-rIN
+|   |   |   |   |   |           |       values-ta-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-te-rIN
+|   |   |   |   |   |           |       values-te-rIN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-th
+|   |   |   |   |   |           |       values-th.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-tl
+|   |   |   |   |   |           |       values-tl.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-tr
+|   |   |   |   |   |           |       values-tr.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-uk
+|   |   |   |   |   |           |       values-uk.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-ur-rPK
+|   |   |   |   |   |           |       values-ur-rPK.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-uz-rUZ
+|   |   |   |   |   |           |       values-uz-rUZ.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v11
+|   |   |   |   |   |           |       values-v11.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v12
+|   |   |   |   |   |           |       values-v12.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v13
+|   |   |   |   |   |           |       values-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v14
+|   |   |   |   |   |           |       values-v14.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v17
+|   |   |   |   |   |           |       values-v17.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v18
+|   |   |   |   |   |           |       values-v18.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v21
+|   |   |   |   |   |           |       values-v21.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v22
+|   |   |   |   |   |           |       values-v22.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-v23
+|   |   |   |   |   |           |       values-v23.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-vi
+|   |   |   |   |   |           |       values-vi.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-w360dp-v13
+|   |   |   |   |   |           |       values-w360dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-w480dp-v13
+|   |   |   |   |   |           |       values-w480dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-w500dp-v13
+|   |   |   |   |   |           |       values-w500dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-w600dp-v13
+|   |   |   |   |   |           |       values-w600dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-w720dp-v13
+|   |   |   |   |   |           |       values-w720dp-v13.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-xlarge-land-v4
+|   |   |   |   |   |           |       values-xlarge-land-v4.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-xlarge-v4
+|   |   |   |   |   |           |       values-xlarge-v4.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-zh-rCN
+|   |   |   |   |   |           |       values-zh-rCN.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-zh-rHK
+|   |   |   |   |   |           |       values-zh-rHK.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-zh-rTW
+|   |   |   |   |   |           |       values-zh-rTW.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           \---values-zu
+|   |   |   |   |   |                   values-zu.xml
+|   |   |   |   |   |                   
+|   |   |   |   |   +---cardview-v7
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   R.txt
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |       classes.jar
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   |           +---values
+|   |   |   |   |   |           |       values.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           \---values-v23
+|   |   |   |   |   |                   values-v23.xml
+|   |   |   |   |   |                   
+|   |   |   |   |   +---design
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   annotations.zip
+|   |   |   |   |   |       |   proguard.txt
+|   |   |   |   |   |       |   public.txt
+|   |   |   |   |   |       |   R.txt
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |       classes.jar
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   |           +---anim
+|   |   |   |   |   |           |       design_bottom_sheet_slide_in.xml
+|   |   |   |   |   |           |       design_bottom_sheet_slide_out.xml
+|   |   |   |   |   |           |       design_fab_in.xml
+|   |   |   |   |   |           |       design_fab_out.xml
+|   |   |   |   |   |           |       design_snackbar_in.xml
+|   |   |   |   |   |           |       design_snackbar_out.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---anim-v21
+|   |   |   |   |   |           |       design_bottom_sheet_slide_in.xml
+|   |   |   |   |   |           |       design_bottom_sheet_slide_out.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---drawable
+|   |   |   |   |   |           |       design_fab_background.xml
+|   |   |   |   |   |           |       design_snackbar_background.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---layout
+|   |   |   |   |   |           |       design_bottom_sheet_dialog.xml
+|   |   |   |   |   |           |       design_layout_snackbar.xml
+|   |   |   |   |   |           |       design_layout_snackbar_include.xml
+|   |   |   |   |   |           |       design_layout_tab_icon.xml
+|   |   |   |   |   |           |       design_layout_tab_text.xml
+|   |   |   |   |   |           |       design_menu_item_action_area.xml
+|   |   |   |   |   |           |       design_navigation_item.xml
+|   |   |   |   |   |           |       design_navigation_item_header.xml
+|   |   |   |   |   |           |       design_navigation_item_separator.xml
+|   |   |   |   |   |           |       design_navigation_item_subheader.xml
+|   |   |   |   |   |           |       design_navigation_menu.xml
+|   |   |   |   |   |           |       design_navigation_menu_item.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---layout-sw600dp-v13
+|   |   |   |   |   |           |       design_layout_snackbar.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values
+|   |   |   |   |   |           |       values.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           +---values-land
+|   |   |   |   |   |           |       values-land.xml
+|   |   |   |   |   |           |       
+|   |   |   |   |   |           \---values-sw600dp-v13
+|   |   |   |   |   |                   values-sw600dp-v13.xml
+|   |   |   |   |   |                   
+|   |   |   |   |   +---palette-v7
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |       classes.jar
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   +---recyclerview-v7
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   annotations.zip
+|   |   |   |   |   |       |   proguard.txt
+|   |   |   |   |   |       |   public.txt
+|   |   |   |   |   |       |   R.txt
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |       classes.jar
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   |           \---values
+|   |   |   |   |   |                   values.xml
+|   |   |   |   |   |                   
+|   |   |   |   |   +---support-v4
+|   |   |   |   |   |   \---23.4.0
+|   |   |   |   |   |       |   AndroidManifest.xml
+|   |   |   |   |   |       |   annotations.zip
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       +---aapt
+|   |   |   |   |   |       |       AndroidManifest.xml
+|   |   |   |   |   |       |       
+|   |   |   |   |   |       +---aidl
+|   |   |   |   |   |       |   \---android
+|   |   |   |   |   |       |       \---support
+|   |   |   |   |   |       |           \---v4
+|   |   |   |   |   |       |               +---media
+|   |   |   |   |   |       |               |   |   MediaMetadataCompat.aidl
+|   |   |   |   |   |       |               |   |   RatingCompat.aidl
+|   |   |   |   |   |       |               |   |   
+|   |   |   |   |   |       |               |   \---session
+|   |   |   |   |   |       |               |           MediaSessionCompat.aidl
+|   |   |   |   |   |       |               |           ParcelableVolumeInfo.aidl
+|   |   |   |   |   |       |               |           PlaybackStateCompat.aidl
+|   |   |   |   |   |       |               |           
+|   |   |   |   |   |       |               \---os
+|   |   |   |   |   |       |                       ResultReceiver.aidl
+|   |   |   |   |   |       |                       
+|   |   |   |   |   |       +---assets
+|   |   |   |   |   |       +---jars
+|   |   |   |   |   |       |   |   classes.jar
+|   |   |   |   |   |       |   |   
+|   |   |   |   |   |       |   \---libs
+|   |   |   |   |   |       |           internal_impl-23.4.0.jar
+|   |   |   |   |   |       |           
+|   |   |   |   |   |       +---jni
+|   |   |   |   |   |       +---libs
+|   |   |   |   |   |       \---res
+|   |   |   |   |   \---support-vector-drawable
+|   |   |   |   |       \---23.4.0
+|   |   |   |   |           |   AndroidManifest.xml
+|   |   |   |   |           |   
+|   |   |   |   |           +---aapt
+|   |   |   |   |           |       AndroidManifest.xml
+|   |   |   |   |           |       
+|   |   |   |   |           +---aidl
+|   |   |   |   |           +---assets
+|   |   |   |   |           +---jars
+|   |   |   |   |           |       classes.jar
+|   |   |   |   |           |       
+|   |   |   |   |           +---jni
+|   |   |   |   |           +---libs
+|   |   |   |   |           \---res
+|   |   |   |   \---com.github.ozodrukh
+|   |   |   |       \---CircularReveal
+|   |   |   |           \---1.1.0
+|   |   |   |               |   AndroidManifest.xml
+|   |   |   |               |   
+|   |   |   |               +---aidl
+|   |   |   |               +---assets
+|   |   |   |               +---jars
+|   |   |   |               |       classes.jar
+|   |   |   |               |       
+|   |   |   |               \---res
+|   |   |   +---incremental
+|   |   |   |   +---compileDebugAidl
+|   |   |   |   |       dependency.store
+|   |   |   |   |       
+|   |   |   |   +---compileDebugAndroidTestAidl
+|   |   |   |   |       dependency.store
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugAndroidTestAssets
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugAndroidTestResources
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugAndroidTestShaders
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugAssets
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugJniLibFolders
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugResources
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   \---mergeDebugShaders
+|   |   |   |           merger.xml
+|   |   |   |           
+|   |   |   +---incremental-classes
+|   |   |   |   \---debug
+|   |   |   |           instant-run-bootstrap.jar
+|   |   |   |           
+|   |   |   +---incremental-runtime-classes
+|   |   |   |   \---debug
+|   |   |   |           instant-run.jar
+|   |   |   |           
+|   |   |   +---incremental-safeguard
+|   |   |   |   \---debug
+|   |   |   |           tag.txt
+|   |   |   |           
+|   |   |   +---incremental-verifier
+|   |   |   |   \---debug
+|   |   |   |       +---activity
+|   |   |   |       |       activity_end.class
+|   |   |   |       |       activity_start$1.class
+|   |   |   |       |       activity_start.class
+|   |   |   |       |       AlertDialog$OnDialogDismissListener.class
+|   |   |   |       |       AlertDialog.class
+|   |   |   |       |       AnimateToolbar$1.class
+|   |   |   |       |       AnimateToolbar.class
+|   |   |   |       |       DetailAuthor$1.class
+|   |   |   |       |       DetailAuthor.class
+|   |   |   |       |       Detail_Book$1.class
+|   |   |   |       |       Detail_Book$2.class
+|   |   |   |       |       Detail_Book.class
+|   |   |   |       |       DialogManager$1.class
+|   |   |   |       |       DialogManager.class
+|   |   |   |       |       FragmentDrawer$1.class
+|   |   |   |       |       FragmentDrawer$2.class
+|   |   |   |       |       FragmentDrawer$3.class
+|   |   |   |       |       FragmentDrawer$ClickListener.class
+|   |   |   |       |       FragmentDrawer$FragmentDrawerListener.class
+|   |   |   |       |       FragmentDrawer$RecyclerTouchListener$1.class
+|   |   |   |       |       FragmentDrawer$RecyclerTouchListener.class
+|   |   |   |       |       FragmentDrawer.class
+|   |   |   |       |       LoginFormActivity$1.class
+|   |   |   |       |       LoginFormActivity$2.class
+|   |   |   |       |       LoginFormActivity$3.class
+|   |   |   |       |       LoginFormActivity.class
+|   |   |   |       |       MainActivity$1.class
+|   |   |   |       |       MainActivity.class
+|   |   |   |       |       OnScrollUpDownListener$Action.class
+|   |   |   |       |       OnScrollUpDownListener.class
+|   |   |   |       |       RegisterActivity$1.class
+|   |   |   |       |       RegisterActivity$2.class
+|   |   |   |       |       RegisterActivity$3.class
+|   |   |   |       |       RegisterActivity.class
+|   |   |   |       |       shopping_cart$ViewPagerAdapter.class
+|   |   |   |       |       shopping_cart.class
+|   |   |   |       |       SplashScreen$1.class
+|   |   |   |       |       SplashScreen$2.class
+|   |   |   |       |       SplashScreen$MyViewPagerAdapter.class
+|   |   |   |       |       SplashScreen.class
+|   |   |   |       |       
+|   |   |   |       +---adapter
+|   |   |   |       |       AuthorsAdapter$1.class
+|   |   |   |       |       AuthorsAdapter$Holder.class
+|   |   |   |       |       AuthorsAdapter.class
+|   |   |   |       |       BooksAdapter$1.class
+|   |   |   |       |       BooksAdapter$Holder.class
+|   |   |   |       |       BooksAdapter.class
+|   |   |   |       |       CategoryAdapter$Holder.class
+|   |   |   |       |       CategoryAdapter.class
+|   |   |   |       |       CustomList.class
+|   |   |   |       |       NavigationDrawerAdapter$MyViewHolder.class
+|   |   |   |       |       NavigationDrawerAdapter.class
+|   |   |   |       |       PrefManager.class
+|   |   |   |       |       SimpleRecyclerAdapter$OnItemClickListener.class
+|   |   |   |       |       SimpleRecyclerAdapter$VersionViewHolder.class
+|   |   |   |       |       SimpleRecyclerAdapter.class
+|   |   |   |       |       SquareImageView.class
+|   |   |   |       |       
+|   |   |   |       +---android
+|   |   |   |       |   \---support
+|   |   |   |       |       +---design
+|   |   |   |       |       |       R$anim.class
+|   |   |   |       |       |       R$attr.class
+|   |   |   |       |       |       R$bool.class
+|   |   |   |       |       |       R$color.class
+|   |   |   |       |       |       R$dimen.class
+|   |   |   |       |       |       R$drawable.class
+|   |   |   |       |       |       R$id.class
+|   |   |   |       |       |       R$integer.class
+|   |   |   |       |       |       R$layout.class
+|   |   |   |       |       |       R$string.class
+|   |   |   |       |       |       R$style.class
+|   |   |   |       |       |       R$styleable.class
+|   |   |   |       |       |       R.class
+|   |   |   |       |       |       
+|   |   |   |       |       \---v7
+|   |   |   |       |           +---appcompat
+|   |   |   |       |           |       R$anim.class
+|   |   |   |       |           |       R$attr.class
+|   |   |   |       |           |       R$bool.class
+|   |   |   |       |           |       R$color.class
+|   |   |   |       |           |       R$dimen.class
+|   |   |   |       |           |       R$drawable.class
+|   |   |   |       |           |       R$id.class
+|   |   |   |       |           |       R$integer.class
+|   |   |   |       |           |       R$layout.class
+|   |   |   |       |           |       R$string.class
+|   |   |   |       |           |       R$style.class
+|   |   |   |       |           |       R$styleable.class
+|   |   |   |       |           |       R.class
+|   |   |   |       |           |       
+|   |   |   |       |           +---cardview
+|   |   |   |       |           |       R$attr.class
+|   |   |   |       |           |       R$color.class
+|   |   |   |       |           |       R$dimen.class
+|   |   |   |       |           |       R$style.class
+|   |   |   |       |           |       R$styleable.class
+|   |   |   |       |           |       R.class
+|   |   |   |       |           |       
+|   |   |   |       |           \---recyclerview
+|   |   |   |       |                   R$attr.class
+|   |   |   |       |                   R$dimen.class
+|   |   |   |       |                   R$id.class
+|   |   |   |       |                   R$styleable.class
+|   |   |   |       |                   R.class
+|   |   |   |       |                   
+|   |   |   |       +---com
+|   |   |   |       |   \---example
+|   |   |   |       |       \---zxcvbn
+|   |   |   |       |           \---bookstore
+|   |   |   |       |                   BuildConfig.class
+|   |   |   |       |                   R$anim.class
+|   |   |   |       |                   R$array.class
+|   |   |   |       |                   R$attr.class
+|   |   |   |       |                   R$bool.class
+|   |   |   |       |                   R$color.class
+|   |   |   |       |                   R$dimen.class
+|   |   |   |       |                   R$drawable.class
+|   |   |   |       |                   R$id.class
+|   |   |   |       |                   R$integer.class
+|   |   |   |       |                   R$layout.class
+|   |   |   |       |                   R$menu.class
+|   |   |   |       |                   R$mipmap.class
+|   |   |   |       |                   R$string.class
+|   |   |   |       |                   R$style.class
+|   |   |   |       |                   R$styleable.class
+|   |   |   |       |                   R.class
+|   |   |   |       |                   
+|   |   |   |       +---Controller
+|   |   |   |       |       Controller.class
+|   |   |   |       |       
+|   |   |   |       +---database
+|   |   |   |       |       DatabaseBookStore.class
+|   |   |   |       |       
+|   |   |   |       +---fragment
+|   |   |   |       |       AuthorsFragment$1.class
+|   |   |   |       |       AuthorsFragment.class
+|   |   |   |       |       BooksFragment$1.class
+|   |   |   |       |       BooksFragment$2.class
+|   |   |   |       |       BooksFragment$3.class
+|   |   |   |       |       BooksFragment$4.class
+|   |   |   |       |       BooksFragment$5.class
+|   |   |   |       |       BooksFragment$6.class
+|   |   |   |       |       BooksFragment.class
+|   |   |   |       |       CategoriesFragment.class
+|   |   |   |       |       OneFragment.class
+|   |   |   |       |       ProfileFragment$1.class
+|   |   |   |       |       ProfileFragment$2.class
+|   |   |   |       |       ProfileFragment$3.class
+|   |   |   |       |       ProfileFragment$4$1.class
+|   |   |   |       |       ProfileFragment$4.class
+|   |   |   |       |       ProfileFragment.class
+|   |   |   |       |       ShopCartFragment$1.class
+|   |   |   |       |       ShopCartFragment$2.class
+|   |   |   |       |       ShopCartFragment$3.class
+|   |   |   |       |       ShopCartFragment.class
+|   |   |   |       |       ThreeFragment.class
+|   |   |   |       |       TwoFragment.class
+|   |   |   |       |       
+|   |   |   |       +---model
+|   |   |   |       |       Author.class
+|   |   |   |       |       Book.class
+|   |   |   |       |       Category.class
+|   |   |   |       |       DataContentProvider.class
+|   |   |   |       |       GeneralResponse.class
+|   |   |   |       |       LoginRespon$Data.class
+|   |   |   |       |       LoginRespon.class
+|   |   |   |       |       NavDrawerItem.class
+|   |   |   |       |       Orders.class
+|   |   |   |       |       PlaceOrder.class
+|   |   |   |       |       PurchaseResponse.class
+|   |   |   |       |       RegisterRespon$Data.class
+|   |   |   |       |       RegisterRespon.class
+|   |   |   |       |       RequestUser.class
+|   |   |   |       |       ShoppingCartEntry.class
+|   |   |   |       |       UpdateUser.class
+|   |   |   |       |       User.class
+|   |   |   |       |       UserLogin.class
+|   |   |   |       |       
+|   |   |   |       +---provider
+|   |   |   |       |       GlobalData$1.class
+|   |   |   |       |       GlobalData$2.class
+|   |   |   |       |       GlobalData$3.class
+|   |   |   |       |       GlobalData.class
+|   |   |   |       |       PrefManager.class
+|   |   |   |       |       SessionManager.class
+|   |   |   |       |       
+|   |   |   |       +---rest
+|   |   |   |       |       ApiClient.class
+|   |   |   |       |       ApiInterface.class
+|   |   |   |       |       
+|   |   |   |       \---util
+|   |   |   |               RoundedImage.class
+|   |   |   |               Util.class
+|   |   |   |               
+|   |   |   +---instant-run-support
+|   |   |   |   \---debug
+|   |   |   |           coldswap.marker
+|   |   |   |           manifest.crc
+|   |   |   |           package.marker
+|   |   |   |           reload-changes.txt
+|   |   |   |           
+|   |   |   +---jniLibs
+|   |   |   |   \---debug
+|   |   |   +---manifest
+|   |   |   |   +---androidTest
+|   |   |   |   |   \---debug
+|   |   |   |   |           AndroidManifest.xml
+|   |   |   |   |           
+|   |   |   |   \---tmp
+|   |   |   +---manifests
+|   |   |   |   \---full
+|   |   |   |       \---debug
+|   |   |   |               AndroidManifest.xml
+|   |   |   |               
+|   |   |   +---pre-dexed
+|   |   |   |   \---debug
+|   |   |   |           com.amulyakhare-com.amulyakhare.textdrawable-1.0.1_9035ca98e26f5236b3fee69414387adefbaeb03f.jar
+|   |   |   |           com.android.support-animated-vector-drawable-23.4.0_9f51fb9c0b8570d1fc3a49785976bd58287e6323.jar
+|   |   |   |           com.android.support-appcompat-v7-23.4.0_3aea202dab9fe6c1bd112317b597578df939e342.jar
+|   |   |   |           com.android.support-cardview-v7-23.4.0_b5dd0c09f0a19f4fe8fa11b47d57fa044008636f.jar
+|   |   |   |           com.android.support-design-23.4.0_4345ad444f7ebe54fba2692c7b51360b0daf5e96.jar
+|   |   |   |           com.android.support-palette-v7-23.4.0_0486412ac9024bf9014f68b7b5859452fef1fc83.jar
+|   |   |   |           com.android.support-recyclerview-v7-23.4.0_24200e5ef86b9221f57362ffaa2dcd02aea129f3.jar
+|   |   |   |           com.android.support-support-v4-23.4.0_a77058f4b87c91d9ff05bfd462092948f9fec311.jar
+|   |   |   |           com.android.support-support-vector-drawable-23.4.0_0ef906bc387d9bcbf5d57ed6b44ab13e39780e2b.jar
+|   |   |   |           com.github.ozodrukh-CircularReveal-1.1.0_cf7b73e6842ff2a5a88d11c620a34a25ca181a3e.jar
+|   |   |   |           converter-gson-2.0.2_38eb11211cf1bf6b0b267ef4e5b444809e857b8a.jar
+|   |   |   |           gson-2.6.2_e1d98950425b0ed730ef6bbc234b356a651934e5.jar
+|   |   |   |           instant-run-bootstrap_b3bf1450c31999ea497c874e4ece4c5eb95a9340.jar
+|   |   |   |           instant-run_7db09964358c628e14a9c4fe969c51c3115ac7d7.jar
+|   |   |   |           internal_impl-23.4.0_aef36531427cdd4fdb1ef5d97d7c82caca3a2d83.jar
+|   |   |   |           library-2.4.0_0bb27e6232bbfdc3c2e11fc8e9b11e39624e54de.jar
+|   |   |   |           main_87d4831367ddc406a6c84198f1e828a87825498f.jar
+|   |   |   |           okhttp-3.2.0_4b2e286e9b803449021cfd377afd29ae7e8e04e8.jar
+|   |   |   |           okio-1.6.0_d6fb01f70bfeff37d0ad6c80aab2ab39b6d4a29c.jar
+|   |   |   |           retrofit-2.0.2_6e0cfa7c9050cc043038bbed11a50e7bcba180c0.jar
+|   |   |   |           support-annotations-23.4.0_7ea0358d7a1572d5d4419899b735ba51926b9f9b.jar
+|   |   |   |           
+|   |   |   +---reload-dex
+|   |   |   |   \---debug
+|   |   |   +---res
+|   |   |   |   |   resources-debug-androidTest.ap_
+|   |   |   |   |   resources-debug.ap_
+|   |   |   |   |   
+|   |   |   |   \---merged
+|   |   |   |       +---androidTest
+|   |   |   |       |   \---debug
+|   |   |   |       \---debug
+|   |   |   |           +---anim
+|   |   |   |           |       abc_fade_in.xml
+|   |   |   |           |       abc_fade_out.xml
+|   |   |   |           |       abc_grow_fade_in_from_bottom.xml
+|   |   |   |           |       abc_popup_enter.xml
+|   |   |   |           |       abc_popup_exit.xml
+|   |   |   |           |       abc_shrink_fade_out_from_bottom.xml
+|   |   |   |           |       abc_slide_in_bottom.xml
+|   |   |   |           |       abc_slide_in_top.xml
+|   |   |   |           |       abc_slide_out_bottom.xml
+|   |   |   |           |       abc_slide_out_top.xml
+|   |   |   |           |       bounce.xml
+|   |   |   |           |       design_fab_in.xml
+|   |   |   |           |       design_fab_out.xml
+|   |   |   |           |       design_snackbar_in.xml
+|   |   |   |           |       design_snackbar_out.xml
+|   |   |   |           |       fab1_hide.xml
+|   |   |   |           |       fab1_show.xml
+|   |   |   |           |       fade.xml
+|   |   |   |           |       zoom.xml
+|   |   |   |           |       
+|   |   |   |           +---anim-v21
+|   |   |   |           |       design_bottom_sheet_slide_in.xml
+|   |   |   |           |       design_bottom_sheet_slide_out.xml
+|   |   |   |           |       
+|   |   |   |           +---color
+|   |   |   |           |       abc_primary_text_disable_only_material_dark.xml
+|   |   |   |           |       abc_primary_text_disable_only_material_light.xml
+|   |   |   |           |       abc_primary_text_material_dark.xml
+|   |   |   |           |       abc_primary_text_material_light.xml
+|   |   |   |           |       abc_search_url_text.xml
+|   |   |   |           |       abc_secondary_text_material_dark.xml
+|   |   |   |           |       abc_secondary_text_material_light.xml
+|   |   |   |           |       switch_thumb_material_dark.xml
+|   |   |   |           |       switch_thumb_material_light.xml
+|   |   |   |           |       
+|   |   |   |           +---color-v11
+|   |   |   |           |       abc_background_cache_hint_selector_material_dark.xml
+|   |   |   |           |       abc_background_cache_hint_selector_material_light.xml
+|   |   |   |           |       
+|   |   |   |           +---color-v23
+|   |   |   |           |       abc_color_highlight_material.xml
+|   |   |   |           |       
+|   |   |   |           +---drawable
+|   |   |   |           |       abc_btn_borderless_material.xml
+|   |   |   |           |       abc_btn_check_material.xml
+|   |   |   |           |       abc_btn_default_mtrl_shape.xml
+|   |   |   |           |       abc_btn_radio_material.xml
+|   |   |   |           |       abc_cab_background_internal_bg.xml
+|   |   |   |           |       abc_cab_background_top_material.xml
+|   |   |   |           |       abc_dialog_material_background_dark.xml
+|   |   |   |           |       abc_dialog_material_background_light.xml
+|   |   |   |           |       abc_item_background_holo_dark.xml
+|   |   |   |           |       abc_item_background_holo_light.xml
+|   |   |   |           |       abc_list_selector_background_transition_holo_dark.xml
+|   |   |   |           |       abc_list_selector_background_transition_holo_light.xml
+|   |   |   |           |       abc_list_selector_holo_dark.xml
+|   |   |   |           |       abc_list_selector_holo_light.xml
+|   |   |   |           |       abc_ratingbar_full_material.xml
+|   |   |   |           |       abc_ratingbar_indicator_material.xml
+|   |   |   |           |       abc_ratingbar_small_material.xml
+|   |   |   |           |       abc_seekbar_thumb_material.xml
+|   |   |   |           |       abc_seekbar_track_material.xml
+|   |   |   |           |       abc_spinner_textfield_background_material.xml
+|   |   |   |           |       abc_switch_thumb_material.xml
+|   |   |   |           |       abc_tab_indicator_material.xml
+|   |   |   |           |       abc_textfield_search_material.xml
+|   |   |   |           |       abc_text_cursor_material.xml
+|   |   |   |           |       about.png
+|   |   |   |           |       account.png
+|   |   |   |           |       add.png
+|   |   |   |           |       android_purple.png
+|   |   |   |           |       art.png
+|   |   |   |           |       art1.png
+|   |   |   |           |       author.png
+|   |   |   |           |       background_user_profile.xml
+|   |   |   |           |       bg.jpg
+|   |   |   |           |       bg_profile.jpg
+|   |   |   |           |       biography.png
+|   |   |   |           |       biography1.png
+|   |   |   |           |       blue_scalloped_edge.png
+|   |   |   |           |       book.png
+|   |   |   |           |       books.png
+|   |   |   |           |       booksplash.png
+|   |   |   |           |       bookstack.png
+|   |   |   |           |       book_pink.png
+|   |   |   |           |       border_bluegreen.xml
+|   |   |   |           |       business.png
+|   |   |   |           |       business1.png
+|   |   |   |           |       button.png
+|   |   |   |           |       buy.png
+|   |   |   |           |       buy_pink.png
+|   |   |   |           |       cal.png
+|   |   |   |           |       calendar.png
+|   |   |   |           |       cancel.png
+|   |   |   |           |       cancel_blue.png
+|   |   |   |           |       cancel_button.png
+|   |   |   |           |       cart.png
+|   |   |   |           |       cart_pink.png
+|   |   |   |           |       checked.png
+|   |   |   |           |       checkout.png
+|   |   |   |           |       checkout_pink.png
+|   |   |   |           |       cloud.png
+|   |   |   |           |       cross_black.png
+|   |   |   |           |       design_fab_background.xml
+|   |   |   |           |       design_snackbar_background.xml
+|   |   |   |           |       divider.xml
+|   |   |   |           |       edit.png
+|   |   |   |           |       edituser.png
+|   |   |   |           |       edit_profile.png
+|   |   |   |           |       expand_arrow.png
+|   |   |   |           |       ex_book3.png
+|   |   |   |           |       ex_book4.png
+|   |   |   |           |       fantasy.png
+|   |   |   |           |       fantasy1.png
+|   |   |   |           |       fiction.png
+|   |   |   |           |       fiction1.png
+|   |   |   |           |       filter.png
+|   |   |   |           |       good_quality.png
+|   |   |   |           |       happy.png
+|   |   |   |           |       help.png
+|   |   |   |           |       help1.png
+|   |   |   |           |       ic_action_search.png
+|   |   |   |           |       ic_authors.png
+|   |   |   |           |       ic_book.png
+|   |   |   |           |       ic_books.png
+|   |   |   |           |       ic_categories.png
+|   |   |   |           |       ic_discount.png
+|   |   |   |           |       ic_logout.png
+|   |   |   |           |       ic_profile.png
+|   |   |   |           |       ic_profiles.png
+|   |   |   |           |       imageview_selector.xml
+|   |   |   |           |       info.png
+|   |   |   |           |       item_border.xml
+|   |   |   |           |       item_border_selected.xml
+|   |   |   |           |       kids.png
+|   |   |   |           |       kids1.png
+|   |   |   |           |       list.png
+|   |   |   |           |       list_selector.xml
+|   |   |   |           |       lock.png
+|   |   |   |           |       minus.png
+|   |   |   |           |       money.png
+|   |   |   |           |       music.png
+|   |   |   |           |       music1.png
+|   |   |   |           |       no_fiction.png
+|   |   |   |           |       no_fiction1.png
+|   |   |   |           |       nyemot.png
+|   |   |   |           |       ok.png
+|   |   |   |           |       paid.png
+|   |   |   |           |       person_ex.jpg
+|   |   |   |           |       plus.png
+|   |   |   |           |       price.png
+|   |   |   |           |       profile_ex.png
+|   |   |   |           |       purchase_order.png
+|   |   |   |           |       receipt.png
+|   |   |   |           |       recurring.png
+|   |   |   |           |       register_bg.jpg
+|   |   |   |           |       religion.png
+|   |   |   |           |       religion1.png
+|   |   |   |           |       romance.png
+|   |   |   |           |       romance1.png
+|   |   |   |           |       rounded_corner.xml
+|   |   |   |           |       rounded_corner_blue.xml
+|   |   |   |           |       sad_android.png
+|   |   |   |           |       sale.png
+|   |   |   |           |       scalloped_border_template.png
+|   |   |   |           |       sci_fi.png
+|   |   |   |           |       sci_fi1.png
+|   |   |   |           |       shop.png
+|   |   |   |           |       shop_pink.png
+|   |   |   |           |       sort_alpa.png
+|   |   |   |           |       summary.png
+|   |   |   |           |       taylor.jpg
+|   |   |   |           |       tick.png
+|   |   |   |           |       tick_black.png
+|   |   |   |           |       tick_blue.png
+|   |   |   |           |       triller.png
+|   |   |   |           |       triller1.png
+|   |   |   |           |       user.png
+|   |   |   |           |       user_circle.png
+|   |   |   |           |       user_prof.png
+|   |   |   |           |       yesno.png
+|   |   |   |           |       zoomin.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-hdpi-v4
+|   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |           |       booksplash.png
+|   |   |   |           |       ex_book3.png
+|   |   |   |           |       ex_book4.png
+|   |   |   |           |       ic_action_search.png
+|   |   |   |           |       ic_authors.png
+|   |   |   |           |       ic_book.png
+|   |   |   |           |       ic_books.png
+|   |   |   |           |       ic_categories.png
+|   |   |   |           |       ic_discount.png
+|   |   |   |           |       ic_filter_empty.png
+|   |   |   |           |       ic_logout.png
+|   |   |   |           |       ic_profile.png
+|   |   |   |           |       ic_profiles.png
+|   |   |   |           |       lock.png
+|   |   |   |           |       nyemot.png
+|   |   |   |           |       user.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-ldrtl-hdpi-v17
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-ldrtl-mdpi-v17
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-ldrtl-xhdpi-v17
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-ldrtl-xxhdpi-v17
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-ldrtl-xxxhdpi-v17
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-mdpi-v4
+|   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |           |       ic_action_search.png
+|   |   |   |           |       ic_profile.png
+|   |   |   |           |       lock.png
+|   |   |   |           |       user.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-v21
+|   |   |   |           |       abc_action_bar_item_background_material.xml
+|   |   |   |           |       abc_btn_colored_material.xml
+|   |   |   |           |       abc_edit_text_material.xml
+|   |   |   |           |       
+|   |   |   |           +---drawable-v23
+|   |   |   |           |       abc_control_background_material.xml
+|   |   |   |           |       
+|   |   |   |           +---drawable-xhdpi-v4
+|   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |           |       ic_action_search.png
+|   |   |   |           |       ic_filter_empty.png
+|   |   |   |           |       ic_profile.png
+|   |   |   |           |       lock.png
+|   |   |   |           |       user.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-xxhdpi-v4
+|   |   |   |           |       abc_ab_share_pack_mtrl_alpha.9.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_rating_star_off_mtrl_alpha.png
+|   |   |   |           |       abc_btn_rating_star_on_mtrl_alpha.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |           |       abc_cab_background_top_mtrl_alpha.9.png
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |           |       abc_ic_commit_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_go_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_list_divider_mtrl_alpha.9.png
+|   |   |   |           |       abc_list_focused_holo.9.png
+|   |   |   |           |       abc_list_longpressed_holo.9.png
+|   |   |   |           |       abc_list_pressed_holo_dark.9.png
+|   |   |   |           |       abc_list_pressed_holo_light.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_dark.9.png
+|   |   |   |           |       abc_list_selector_disabled_holo_light.9.png
+|   |   |   |           |       abc_menu_hardkey_panel_mtrl_mult.9.png
+|   |   |   |           |       abc_popup_background_mtrl_mult.9.png
+|   |   |   |           |       abc_scrubber_control_off_mtrl_alpha.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |           |       abc_scrubber_primary_mtrl_alpha.9.png
+|   |   |   |           |       abc_scrubber_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_default_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_activated_mtrl_alpha.9.png
+|   |   |   |           |       abc_textfield_search_default_mtrl_alpha.9.png
+|   |   |   |           |       ic_action_search.png
+|   |   |   |           |       ic_filter_empty.png
+|   |   |   |           |       ic_profile.png
+|   |   |   |           |       lock.png
+|   |   |   |           |       user.png
+|   |   |   |           |       
+|   |   |   |           +---drawable-xxxhdpi-v4
+|   |   |   |           |       abc_btn_check_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_check_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_000.png
+|   |   |   |           |       abc_btn_radio_to_on_mtrl_015.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00001.9.png
+|   |   |   |           |       abc_btn_switch_to_on_mtrl_00012.9.png
+|   |   |   |           |       abc_ic_ab_back_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_clear_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_copy_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_cut_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_moreoverflow_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_paste_mtrl_am_alpha.png
+|   |   |   |           |       abc_ic_menu_selectall_mtrl_alpha.png
+|   |   |   |           |       abc_ic_menu_share_mtrl_alpha.png
+|   |   |   |           |       abc_ic_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_ic_star_black_16dp.png
+|   |   |   |           |       abc_ic_star_black_36dp.png
+|   |   |   |           |       abc_ic_star_half_black_16dp.png
+|   |   |   |           |       abc_ic_star_half_black_36dp.png
+|   |   |   |           |       abc_ic_voice_search_api_mtrl_alpha.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_000.png
+|   |   |   |           |       abc_scrubber_control_to_pressed_mtrl_005.png
+|   |   |   |           |       abc_spinner_mtrl_am_alpha.9.png
+|   |   |   |           |       abc_switch_track_mtrl_alpha.9.png
+|   |   |   |           |       abc_tab_indicator_mtrl_alpha.9.png
+|   |   |   |           |       
+|   |   |   |           +---layout
+|   |   |   |           |       abc_action_bar_title_item.xml
+|   |   |   |           |       abc_action_bar_up_container.xml
+|   |   |   |           |       abc_action_bar_view_list_nav_layout.xml
+|   |   |   |           |       abc_action_menu_item_layout.xml
+|   |   |   |           |       abc_action_menu_layout.xml
+|   |   |   |           |       abc_action_mode_bar.xml
+|   |   |   |           |       abc_action_mode_close_item_material.xml
+|   |   |   |           |       abc_activity_chooser_view.xml
+|   |   |   |           |       abc_activity_chooser_view_list_item.xml
+|   |   |   |           |       abc_alert_dialog_button_bar_material.xml
+|   |   |   |           |       abc_alert_dialog_material.xml
+|   |   |   |           |       abc_dialog_title_material.xml
+|   |   |   |           |       abc_expanded_menu_layout.xml
+|   |   |   |           |       abc_list_menu_item_checkbox.xml
+|   |   |   |           |       abc_list_menu_item_icon.xml
+|   |   |   |           |       abc_list_menu_item_layout.xml
+|   |   |   |           |       abc_list_menu_item_radio.xml
+|   |   |   |           |       abc_popup_menu_item_layout.xml
+|   |   |   |           |       abc_screen_content_include.xml
+|   |   |   |           |       abc_screen_simple.xml
+|   |   |   |           |       abc_screen_simple_overlay_action_mode.xml
+|   |   |   |           |       abc_screen_toolbar.xml
+|   |   |   |           |       abc_search_dropdown_item_icons_2line.xml
+|   |   |   |           |       abc_search_view.xml
+|   |   |   |           |       abc_select_dialog_material.xml
+|   |   |   |           |       activity_activity_end.xml
+|   |   |   |           |       activity_activity_start.xml
+|   |   |   |           |       activity_animate_toolbar.xml
+|   |   |   |           |       activity_detail__book.xml
+|   |   |   |           |       activity_loginform.xml
+|   |   |   |           |       activity_main.xml
+|   |   |   |           |       activity_register.xml
+|   |   |   |           |       activity_splashscreen.xml
+|   |   |   |           |       act_shopping_cart.xml
+|   |   |   |           |       book_list.xml
+|   |   |   |           |       book_recycler.xml
+|   |   |   |           |       connection.xml
+|   |   |   |           |       content_main.xml
+|   |   |   |           |       custom_actionbar.xml
+|   |   |   |           |       design_bottom_sheet_dialog.xml
+|   |   |   |           |       design_layout_snackbar.xml
+|   |   |   |           |       design_layout_snackbar_include.xml
+|   |   |   |           |       design_layout_tab_icon.xml
+|   |   |   |           |       design_layout_tab_text.xml
+|   |   |   |           |       design_menu_item_action_area.xml
+|   |   |   |           |       design_navigation_item.xml
+|   |   |   |           |       design_navigation_item_header.xml
+|   |   |   |           |       design_navigation_item_separator.xml
+|   |   |   |           |       design_navigation_item_subheader.xml
+|   |   |   |           |       design_navigation_menu.xml
+|   |   |   |           |       design_navigation_menu_item.xml
+|   |   |   |           |       detail_author.xml
+|   |   |   |           |       detail_author_header.xml
+|   |   |   |           |       detail_item_listview.xml
+|   |   |   |           |       fab_layout.xml
+|   |   |   |           |       fragment_authors.xml
+|   |   |   |           |       fragment_books.xml
+|   |   |   |           |       fragment_categories.xml
+|   |   |   |           |       fragment_fragment_drawer.xml
+|   |   |   |           |       fragment_navigation_drawer.xml
+|   |   |   |           |       fragment_one.xml
+|   |   |   |           |       fragment_profile.xml
+|   |   |   |           |       fragment_three.xml
+|   |   |   |           |       fragment_two.xml
+|   |   |   |           |       grid_book.xml
+|   |   |   |           |       header_det_book.xml
+|   |   |   |           |       horizonatalscroll.xml
+|   |   |   |           |       horizontal_list.xml
+|   |   |   |           |       item_listview.xml
+|   |   |   |           |       item_row.xml
+|   |   |   |           |       layout_dialog.xml
+|   |   |   |           |       listview_item_shop.xml
+|   |   |   |           |       list_item_book.xml
+|   |   |   |           |       list_item_title_navigation.xml
+|   |   |   |           |       list_single.xml
+|   |   |   |           |       mylist.xml
+|   |   |   |           |       mylist_det_book.xml
+|   |   |   |           |       nav_drawer_row.xml
+|   |   |   |           |       notification_item.xml
+|   |   |   |           |       notification_media_action.xml
+|   |   |   |           |       notification_media_cancel_action.xml
+|   |   |   |           |       notification_template_big_media.xml
+|   |   |   |           |       notification_template_big_media_narrow.xml
+|   |   |   |           |       notification_template_lines.xml
+|   |   |   |           |       notification_template_media.xml
+|   |   |   |           |       notification_template_part_chronometer.xml
+|   |   |   |           |       notification_template_part_time.xml
+|   |   |   |           |       recyclerlist_item.xml
+|   |   |   |           |       recyclerview.xml
+|   |   |   |           |       select_dialog_item_material.xml
+|   |   |   |           |       select_dialog_multichoice_material.xml
+|   |   |   |           |       select_dialog_singlechoice_material.xml
+|   |   |   |           |       shopping_cart_list.xml
+|   |   |   |           |       support_simple_spinner_dropdown_item.xml
+|   |   |   |           |       toolbar.xml
+|   |   |   |           |       welcome_side1.xml
+|   |   |   |           |       welcome_side2.xml
+|   |   |   |           |       
+|   |   |   |           +---layout-sw600dp-v13
+|   |   |   |           |       design_layout_snackbar.xml
+|   |   |   |           |       
+|   |   |   |           +---menu
+|   |   |   |           |       menu_main.xml
+|   |   |   |           |       
+|   |   |   |           +---mipmap-hdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-mdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-xhdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-xxhdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-xxxhdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---values
+|   |   |   |           |       values.xml
+|   |   |   |           |       
+|   |   |   |           +---values-af
+|   |   |   |           |       values-af.xml
+|   |   |   |           |       
+|   |   |   |           +---values-am
+|   |   |   |           |       values-am.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ar
+|   |   |   |           |       values-ar.xml
+|   |   |   |           |       
+|   |   |   |           +---values-az-rAZ
+|   |   |   |           |       values-az-rAZ.xml
+|   |   |   |           |       
+|   |   |   |           +---values-bg
+|   |   |   |           |       values-bg.xml
+|   |   |   |           |       
+|   |   |   |           +---values-bn-rBD
+|   |   |   |           |       values-bn-rBD.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ca
+|   |   |   |           |       values-ca.xml
+|   |   |   |           |       
+|   |   |   |           +---values-cs
+|   |   |   |           |       values-cs.xml
+|   |   |   |           |       
+|   |   |   |           +---values-da
+|   |   |   |           |       values-da.xml
+|   |   |   |           |       
+|   |   |   |           +---values-de
+|   |   |   |           |       values-de.xml
+|   |   |   |           |       
+|   |   |   |           +---values-el
+|   |   |   |           |       values-el.xml
+|   |   |   |           |       
+|   |   |   |           +---values-en-rAU
+|   |   |   |           |       values-en-rAU.xml
+|   |   |   |           |       
+|   |   |   |           +---values-en-rGB
+|   |   |   |           |       values-en-rGB.xml
+|   |   |   |           |       
+|   |   |   |           +---values-en-rIN
+|   |   |   |           |       values-en-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-es
+|   |   |   |           |       values-es.xml
+|   |   |   |           |       
+|   |   |   |           +---values-es-rUS
+|   |   |   |           |       values-es-rUS.xml
+|   |   |   |           |       
+|   |   |   |           +---values-et-rEE
+|   |   |   |           |       values-et-rEE.xml
+|   |   |   |           |       
+|   |   |   |           +---values-eu-rES
+|   |   |   |           |       values-eu-rES.xml
+|   |   |   |           |       
+|   |   |   |           +---values-fa
+|   |   |   |           |       values-fa.xml
+|   |   |   |           |       
+|   |   |   |           +---values-fi
+|   |   |   |           |       values-fi.xml
+|   |   |   |           |       
+|   |   |   |           +---values-fr
+|   |   |   |           |       values-fr.xml
+|   |   |   |           |       
+|   |   |   |           +---values-fr-rCA
+|   |   |   |           |       values-fr-rCA.xml
+|   |   |   |           |       
+|   |   |   |           +---values-gl-rES
+|   |   |   |           |       values-gl-rES.xml
+|   |   |   |           |       
+|   |   |   |           +---values-gu-rIN
+|   |   |   |           |       values-gu-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-h320dp-v13
+|   |   |   |           |       values-h320dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-h720dp-v13
+|   |   |   |           |       values-h720dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-hdpi-v4
+|   |   |   |           |       values-hdpi-v4.xml
+|   |   |   |           |       
+|   |   |   |           +---values-hi
+|   |   |   |           |       values-hi.xml
+|   |   |   |           |       
+|   |   |   |           +---values-hr
+|   |   |   |           |       values-hr.xml
+|   |   |   |           |       
+|   |   |   |           +---values-hu
+|   |   |   |           |       values-hu.xml
+|   |   |   |           |       
+|   |   |   |           +---values-hy-rAM
+|   |   |   |           |       values-hy-rAM.xml
+|   |   |   |           |       
+|   |   |   |           +---values-in
+|   |   |   |           |       values-in.xml
+|   |   |   |           |       
+|   |   |   |           +---values-is-rIS
+|   |   |   |           |       values-is-rIS.xml
+|   |   |   |           |       
+|   |   |   |           +---values-it
+|   |   |   |           |       values-it.xml
+|   |   |   |           |       
+|   |   |   |           +---values-iw
+|   |   |   |           |       values-iw.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ja
+|   |   |   |           |       values-ja.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ka-rGE
+|   |   |   |           |       values-ka-rGE.xml
+|   |   |   |           |       
+|   |   |   |           +---values-kk-rKZ
+|   |   |   |           |       values-kk-rKZ.xml
+|   |   |   |           |       
+|   |   |   |           +---values-km-rKH
+|   |   |   |           |       values-km-rKH.xml
+|   |   |   |           |       
+|   |   |   |           +---values-kn-rIN
+|   |   |   |           |       values-kn-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ko
+|   |   |   |           |       values-ko.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ky-rKG
+|   |   |   |           |       values-ky-rKG.xml
+|   |   |   |           |       
+|   |   |   |           +---values-land
+|   |   |   |           |       values-land.xml
+|   |   |   |           |       
+|   |   |   |           +---values-large-v4
+|   |   |   |           |       values-large-v4.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ldltr-v21
+|   |   |   |           |       values-ldltr-v21.xml
+|   |   |   |           |       
+|   |   |   |           +---values-lo-rLA
+|   |   |   |           |       values-lo-rLA.xml
+|   |   |   |           |       
+|   |   |   |           +---values-lt
+|   |   |   |           |       values-lt.xml
+|   |   |   |           |       
+|   |   |   |           +---values-lv
+|   |   |   |           |       values-lv.xml
+|   |   |   |           |       
+|   |   |   |           +---values-mk-rMK
+|   |   |   |           |       values-mk-rMK.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ml-rIN
+|   |   |   |           |       values-ml-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-mn-rMN
+|   |   |   |           |       values-mn-rMN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-mr-rIN
+|   |   |   |           |       values-mr-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ms-rMY
+|   |   |   |           |       values-ms-rMY.xml
+|   |   |   |           |       
+|   |   |   |           +---values-my-rMM
+|   |   |   |           |       values-my-rMM.xml
+|   |   |   |           |       
+|   |   |   |           +---values-nb
+|   |   |   |           |       values-nb.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ne-rNP
+|   |   |   |           |       values-ne-rNP.xml
+|   |   |   |           |       
+|   |   |   |           +---values-night-v8
+|   |   |   |           |       values-night-v8.xml
+|   |   |   |           |       
+|   |   |   |           +---values-nl
+|   |   |   |           |       values-nl.xml
+|   |   |   |           |       
+|   |   |   |           +---values-pa-rIN
+|   |   |   |           |       values-pa-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-pl
+|   |   |   |           |       values-pl.xml
+|   |   |   |           |       
+|   |   |   |           +---values-port
+|   |   |   |           |       values-port.xml
+|   |   |   |           |       
+|   |   |   |           +---values-pt
+|   |   |   |           |       values-pt.xml
+|   |   |   |           |       
+|   |   |   |           +---values-pt-rBR
+|   |   |   |           |       values-pt-rBR.xml
+|   |   |   |           |       
+|   |   |   |           +---values-pt-rPT
+|   |   |   |           |       values-pt-rPT.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ro
+|   |   |   |           |       values-ro.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ru
+|   |   |   |           |       values-ru.xml
+|   |   |   |           |       
+|   |   |   |           +---values-si-rLK
+|   |   |   |           |       values-si-rLK.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sk
+|   |   |   |           |       values-sk.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sl
+|   |   |   |           |       values-sl.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sq-rAL
+|   |   |   |           |       values-sq-rAL.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sr
+|   |   |   |           |       values-sr.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sv
+|   |   |   |           |       values-sv.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sw
+|   |   |   |           |       values-sw.xml
+|   |   |   |           |       
+|   |   |   |           +---values-sw600dp-v13
+|   |   |   |           |       values-sw600dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ta-rIN
+|   |   |   |           |       values-ta-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-te-rIN
+|   |   |   |           |       values-te-rIN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-th
+|   |   |   |           |       values-th.xml
+|   |   |   |           |       
+|   |   |   |           +---values-tl
+|   |   |   |           |       values-tl.xml
+|   |   |   |           |       
+|   |   |   |           +---values-tr
+|   |   |   |           |       values-tr.xml
+|   |   |   |           |       
+|   |   |   |           +---values-uk
+|   |   |   |           |       values-uk.xml
+|   |   |   |           |       
+|   |   |   |           +---values-ur-rPK
+|   |   |   |           |       values-ur-rPK.xml
+|   |   |   |           |       
+|   |   |   |           +---values-uz-rUZ
+|   |   |   |           |       values-uz-rUZ.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v11
+|   |   |   |           |       values-v11.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v12
+|   |   |   |           |       values-v12.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v13
+|   |   |   |           |       values-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v14
+|   |   |   |           |       values-v14.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v17
+|   |   |   |           |       values-v17.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v18
+|   |   |   |           |       values-v18.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v21
+|   |   |   |           |       values-v21.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v22
+|   |   |   |           |       values-v22.xml
+|   |   |   |           |       
+|   |   |   |           +---values-v23
+|   |   |   |           |       values-v23.xml
+|   |   |   |           |       
+|   |   |   |           +---values-vi
+|   |   |   |           |       values-vi.xml
+|   |   |   |           |       
+|   |   |   |           +---values-w360dp-v13
+|   |   |   |           |       values-w360dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-w480dp-v13
+|   |   |   |           |       values-w480dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-w500dp-v13
+|   |   |   |           |       values-w500dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-w600dp-v13
+|   |   |   |           |       values-w600dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-w720dp-v13
+|   |   |   |           |       values-w720dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-w820dp-v13
+|   |   |   |           |       values-w820dp-v13.xml
+|   |   |   |           |       
+|   |   |   |           +---values-xlarge-land-v4
+|   |   |   |           |       values-xlarge-land-v4.xml
+|   |   |   |           |       
+|   |   |   |           +---values-xlarge-v4
+|   |   |   |           |       values-xlarge-v4.xml
+|   |   |   |           |       
+|   |   |   |           +---values-zh-rCN
+|   |   |   |           |       values-zh-rCN.xml
+|   |   |   |           |       
+|   |   |   |           +---values-zh-rHK
+|   |   |   |           |       values-zh-rHK.xml
+|   |   |   |           |       
+|   |   |   |           +---values-zh-rTW
+|   |   |   |           |       values-zh-rTW.xml
+|   |   |   |           |       
+|   |   |   |           \---values-zu
+|   |   |   |                   values-zu.xml
+|   |   |   |                   
+|   |   |   +---restart-dex
+|   |   |   |   \---debug
+|   |   |   |           build-info.xml
+|   |   |   |           
+|   |   |   +---rs
+|   |   |   |   +---androidTest
+|   |   |   |   |   \---debug
+|   |   |   |   |       +---lib
+|   |   |   |   |       \---obj
+|   |   |   |   \---debug
+|   |   |   |       +---lib
+|   |   |   |       \---obj
+|   |   |   +---shaders
+|   |   |   |   +---androidTest
+|   |   |   |   |   \---debug
+|   |   |   |   \---debug
+|   |   |   +---symbols
+|   |   |   |   +---androidTest
+|   |   |   |   |   \---debug
+|   |   |   |   \---debug
+|   |   |   |           R.txt
+|   |   |   |           
+|   |   |   \---transforms
+|   |   |       +---dex
+|   |   |       |   \---debug
+|   |   |       |       \---folders
+|   |   |       |           \---1000
+|   |   |       |               \---10
+|   |   |       |                   +---com.amulyakhare-com.amulyakhare.textdrawable-1.0.1_9035ca98e26f5236b3fee69414387adefbaeb03f
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-animated-vector-drawable-23.4.0_9f51fb9c0b8570d1fc3a49785976bd58287e6323
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-appcompat-v7-23.4.0_3aea202dab9fe6c1bd112317b597578df939e342
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-cardview-v7-23.4.0_b5dd0c09f0a19f4fe8fa11b47d57fa044008636f
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-design-23.4.0_4345ad444f7ebe54fba2692c7b51360b0daf5e96
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-palette-v7-23.4.0_0486412ac9024bf9014f68b7b5859452fef1fc83
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-recyclerview-v7-23.4.0_24200e5ef86b9221f57362ffaa2dcd02aea129f3
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-support-v4-23.4.0_a77058f4b87c91d9ff05bfd462092948f9fec311
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.android.support-support-vector-drawable-23.4.0_0ef906bc387d9bcbf5d57ed6b44ab13e39780e2b
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---com.github.ozodrukh-CircularReveal-1.1.0_cf7b73e6842ff2a5a88d11c620a34a25ca181a3e
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---converter-gson-2.0.2_38eb11211cf1bf6b0b267ef4e5b444809e857b8a
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---gson-2.6.2_e1d98950425b0ed730ef6bbc234b356a651934e5
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---instant-run-bootstrap_b3bf1450c31999ea497c874e4ece4c5eb95a9340
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---instant-run_7db09964358c628e14a9c4fe969c51c3115ac7d7
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---internal_impl-23.4.0_aef36531427cdd4fdb1ef5d97d7c82caca3a2d83
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---library-2.4.0_0bb27e6232bbfdc3c2e11fc8e9b11e39624e54de
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---okhttp-3.2.0_4b2e286e9b803449021cfd377afd29ae7e8e04e8
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---okio-1.6.0_d6fb01f70bfeff37d0ad6c80aab2ab39b6d4a29c
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   +---retrofit-2.0.2_6e0cfa7c9050cc043038bbed11a50e7bcba180c0
+|   |   |       |                   |       classes.dex
+|   |   |       |                   |       
+|   |   |       |                   \---support-annotations-23.4.0_7ea0358d7a1572d5d4419899b735ba51926b9f9b
+|   |   |       |                           classes.dex
+|   |   |       |                           
+|   |   |       +---extractJars
+|   |   |       |   \---debug
+|   |   |       +---instantRun
+|   |   |       |   \---debug
+|   |   |       |       \---folders
+|   |   |       |           +---1
+|   |   |       |           |   \---5
+|   |   |       |           |       \---main
+|   |   |       |           |           +---activity
+|   |   |       |           |           |       activity_end.class
+|   |   |       |           |           |       activity_start$1.class
+|   |   |       |           |           |       activity_start.class
+|   |   |       |           |           |       AlertDialog$OnDialogDismissListener.class
+|   |   |       |           |           |       AlertDialog.class
+|   |   |       |           |           |       AnimateToolbar$1.class
+|   |   |       |           |           |       AnimateToolbar.class
+|   |   |       |           |           |       DetailAuthor$1.class
+|   |   |       |           |           |       DetailAuthor.class
+|   |   |       |           |           |       Detail_Book$1.class
+|   |   |       |           |           |       Detail_Book$2.class
+|   |   |       |           |           |       Detail_Book.class
+|   |   |       |           |           |       DialogManager$1.class
+|   |   |       |           |           |       DialogManager.class
+|   |   |       |           |           |       FragmentDrawer$1.class
+|   |   |       |           |           |       FragmentDrawer$2.class
+|   |   |       |           |           |       FragmentDrawer$3.class
+|   |   |       |           |           |       FragmentDrawer$ClickListener.class
+|   |   |       |           |           |       FragmentDrawer$FragmentDrawerListener.class
+|   |   |       |           |           |       FragmentDrawer$RecyclerTouchListener$1.class
+|   |   |       |           |           |       FragmentDrawer$RecyclerTouchListener.class
+|   |   |       |           |           |       FragmentDrawer.class
+|   |   |       |           |           |       LoginFormActivity$1.class
+|   |   |       |           |           |       LoginFormActivity$2.class
+|   |   |       |           |           |       LoginFormActivity$3.class
+|   |   |       |           |           |       LoginFormActivity.class
+|   |   |       |           |           |       MainActivity$1.class
+|   |   |       |           |           |       MainActivity.class
+|   |   |       |           |           |       OnScrollUpDownListener$Action.class
+|   |   |       |           |           |       OnScrollUpDownListener.class
+|   |   |       |           |           |       RegisterActivity$1.class
+|   |   |       |           |           |       RegisterActivity$2.class
+|   |   |       |           |           |       RegisterActivity$3.class
+|   |   |       |           |           |       RegisterActivity.class
+|   |   |       |           |           |       shopping_cart$ViewPagerAdapter.class
+|   |   |       |           |           |       shopping_cart.class
+|   |   |       |           |           |       SplashScreen$1.class
+|   |   |       |           |           |       SplashScreen$2.class
+|   |   |       |           |           |       SplashScreen$MyViewPagerAdapter.class
+|   |   |       |           |           |       SplashScreen.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---adapter
+|   |   |       |           |           |       AuthorsAdapter$1.class
+|   |   |       |           |           |       AuthorsAdapter$Holder.class
+|   |   |       |           |           |       AuthorsAdapter.class
+|   |   |       |           |           |       BooksAdapter$1.class
+|   |   |       |           |           |       BooksAdapter$Holder.class
+|   |   |       |           |           |       BooksAdapter.class
+|   |   |       |           |           |       CategoryAdapter$Holder.class
+|   |   |       |           |           |       CategoryAdapter.class
+|   |   |       |           |           |       CustomList.class
+|   |   |       |           |           |       NavigationDrawerAdapter$MyViewHolder.class
+|   |   |       |           |           |       NavigationDrawerAdapter.class
+|   |   |       |           |           |       PrefManager.class
+|   |   |       |           |           |       SimpleRecyclerAdapter$OnItemClickListener.class
+|   |   |       |           |           |       SimpleRecyclerAdapter$VersionViewHolder.class
+|   |   |       |           |           |       SimpleRecyclerAdapter.class
+|   |   |       |           |           |       SquareImageView.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---android
+|   |   |       |           |           |   \---support
+|   |   |       |           |           |       +---design
+|   |   |       |           |           |       |       R$anim.class
+|   |   |       |           |           |       |       R$attr.class
+|   |   |       |           |           |       |       R$bool.class
+|   |   |       |           |           |       |       R$color.class
+|   |   |       |           |           |       |       R$dimen.class
+|   |   |       |           |           |       |       R$drawable.class
+|   |   |       |           |           |       |       R$id.class
+|   |   |       |           |           |       |       R$integer.class
+|   |   |       |           |           |       |       R$layout.class
+|   |   |       |           |           |       |       R$string.class
+|   |   |       |           |           |       |       R$style.class
+|   |   |       |           |           |       |       R$styleable.class
+|   |   |       |           |           |       |       R.class
+|   |   |       |           |           |       |       
+|   |   |       |           |           |       \---v7
+|   |   |       |           |           |           +---appcompat
+|   |   |       |           |           |           |       R$anim.class
+|   |   |       |           |           |           |       R$attr.class
+|   |   |       |           |           |           |       R$bool.class
+|   |   |       |           |           |           |       R$color.class
+|   |   |       |           |           |           |       R$dimen.class
+|   |   |       |           |           |           |       R$drawable.class
+|   |   |       |           |           |           |       R$id.class
+|   |   |       |           |           |           |       R$integer.class
+|   |   |       |           |           |           |       R$layout.class
+|   |   |       |           |           |           |       R$string.class
+|   |   |       |           |           |           |       R$style.class
+|   |   |       |           |           |           |       R$styleable.class
+|   |   |       |           |           |           |       R.class
+|   |   |       |           |           |           |       
+|   |   |       |           |           |           +---cardview
+|   |   |       |           |           |           |       R$attr.class
+|   |   |       |           |           |           |       R$color.class
+|   |   |       |           |           |           |       R$dimen.class
+|   |   |       |           |           |           |       R$style.class
+|   |   |       |           |           |           |       R$styleable.class
+|   |   |       |           |           |           |       R.class
+|   |   |       |           |           |           |       
+|   |   |       |           |           |           \---recyclerview
+|   |   |       |           |           |                   R$attr.class
+|   |   |       |           |           |                   R$dimen.class
+|   |   |       |           |           |                   R$id.class
+|   |   |       |           |           |                   R$styleable.class
+|   |   |       |           |           |                   R.class
+|   |   |       |           |           |                   
+|   |   |       |           |           +---com
+|   |   |       |           |           |   \---example
+|   |   |       |           |           |       \---zxcvbn
+|   |   |       |           |           |           \---bookstore
+|   |   |       |           |           |                   BuildConfig.class
+|   |   |       |           |           |                   R$anim.class
+|   |   |       |           |           |                   R$array.class
+|   |   |       |           |           |                   R$attr.class
+|   |   |       |           |           |                   R$bool.class
+|   |   |       |           |           |                   R$color.class
+|   |   |       |           |           |                   R$dimen.class
+|   |   |       |           |           |                   R$drawable.class
+|   |   |       |           |           |                   R$id.class
+|   |   |       |           |           |                   R$integer.class
+|   |   |       |           |           |                   R$layout.class
+|   |   |       |           |           |                   R$menu.class
+|   |   |       |           |           |                   R$mipmap.class
+|   |   |       |           |           |                   R$string.class
+|   |   |       |           |           |                   R$style.class
+|   |   |       |           |           |                   R$styleable.class
+|   |   |       |           |           |                   R.class
+|   |   |       |           |           |                   
+|   |   |       |           |           +---Controller
+|   |   |       |           |           |       Controller.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---database
+|   |   |       |           |           |       DatabaseBookStore.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---fragment
+|   |   |       |           |           |       AuthorsFragment$1.class
+|   |   |       |           |           |       AuthorsFragment.class
+|   |   |       |           |           |       BooksFragment$1.class
+|   |   |       |           |           |       BooksFragment$2.class
+|   |   |       |           |           |       BooksFragment$3.class
+|   |   |       |           |           |       BooksFragment$4.class
+|   |   |       |           |           |       BooksFragment$5.class
+|   |   |       |           |           |       BooksFragment$6.class
+|   |   |       |           |           |       BooksFragment.class
+|   |   |       |           |           |       CategoriesFragment.class
+|   |   |       |           |           |       OneFragment.class
+|   |   |       |           |           |       ProfileFragment$1.class
+|   |   |       |           |           |       ProfileFragment$2.class
+|   |   |       |           |           |       ProfileFragment$3.class
+|   |   |       |           |           |       ProfileFragment$4$1.class
+|   |   |       |           |           |       ProfileFragment$4.class
+|   |   |       |           |           |       ProfileFragment.class
+|   |   |       |           |           |       ShopCartFragment$1.class
+|   |   |       |           |           |       ShopCartFragment$2.class
+|   |   |       |           |           |       ShopCartFragment$3.class
+|   |   |       |           |           |       ShopCartFragment.class
+|   |   |       |           |           |       ThreeFragment.class
+|   |   |       |           |           |       TwoFragment.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---model
+|   |   |       |           |           |       Author.class
+|   |   |       |           |           |       Book.class
+|   |   |       |           |           |       Category.class
+|   |   |       |           |           |       DataContentProvider.class
+|   |   |       |           |           |       GeneralResponse.class
+|   |   |       |           |           |       LoginRespon$Data.class
+|   |   |       |           |           |       LoginRespon.class
+|   |   |       |           |           |       NavDrawerItem.class
+|   |   |       |           |           |       Orders.class
+|   |   |       |           |           |       PlaceOrder.class
+|   |   |       |           |           |       PurchaseResponse.class
+|   |   |       |           |           |       RegisterRespon$Data.class
+|   |   |       |           |           |       RegisterRespon.class
+|   |   |       |           |           |       RequestUser.class
+|   |   |       |           |           |       ShoppingCartEntry.class
+|   |   |       |           |           |       UpdateUser.class
+|   |   |       |           |           |       User.class
+|   |   |       |           |           |       UserLogin.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---provider
+|   |   |       |           |           |       GlobalData$1.class
+|   |   |       |           |           |       GlobalData$2.class
+|   |   |       |           |           |       GlobalData$3.class
+|   |   |       |           |           |       GlobalData.class
+|   |   |       |           |           |       PrefManager.class
+|   |   |       |           |           |       SessionManager.class
+|   |   |       |           |           |       
+|   |   |       |           |           +---rest
+|   |   |       |           |           |       ApiClient.class
+|   |   |       |           |           |       ApiInterface.class
+|   |   |       |           |           |       
+|   |   |       |           |           \---util
+|   |   |       |           |                   RoundedImage.class
+|   |   |       |           |                   Util.class
+|   |   |       |           |                   
+|   |   |       |           \---4000
+|   |   |       |               \---5
+|   |   |       |                   \---enhanced
+|   |   |       |                       +---com
+|   |   |       |                       |   \---android
+|   |   |       |                       |       \---tools
+|   |   |       |                       |           \---fd
+|   |   |       |                       |               \---runtime
+|   |   |       |                       |                       AppPatchesLoaderImpl.class
+|   |   |       |                       |                       
+|   |   |       |                       \---fragment
+|   |   |       |                               BooksFragment$5$override.class
+|   |   |       |                               BooksFragment$6$override.class
+|   |   |       |                               BooksFragment$override.class
+|   |   |       |                               
+|   |   |       +---instantRunSlicer
+|   |   |       |   \---debug
+|   |   |       +---mergeJavaRes
+|   |   |       |   \---debug
+|   |   |       |       \---jars
+|   |   |       |           \---2
+|   |   |       |               \---1f
+|   |   |       |                       main.jar
+|   |   |       |                       
+|   |   |       \---mergeJniLibs
+|   |   |           \---debug
+|   |   +---outputs
+|   |   |   +---apk
+|   |   |   |       app-debug-unaligned.apk
+|   |   |   |       app-debug.apk
+|   |   |   |       
+|   |   |   \---logs
+|   |   |           manifest-merger-debug-report.txt
+|   |   |           
+|   |   \---tmp
+|   |       \---compileDebugJavaWithJavac
+|   |           \---emptySourcePathRef
+|   +---libs
+|   \---src
+|       +---androidTest
+|       |   \---java
+|       |       \---com
+|       |           \---example
+|       |               \---zxcvbn
+|       |                   \---bookstore
+|       |                           ApplicationTest.java
+|       |                           
+|       +---main
+|       |   |   AndroidManifest.xml
+|       |   |   
+|       |   +---java
+|       |   |   +---activity
+|       |   |   |       activity_end.java
+|       |   |   |       activity_start.java
+|       |   |   |       AlertDialog.java
+|       |   |   |       AnimateToolbar.java
+|       |   |   |       DetailAuthor.java
+|       |   |   |       Detail_Book.java
+|       |   |   |       DialogManager.java
+|       |   |   |       FragmentDrawer.java
+|       |   |   |       LoginFormActivity.java
+|       |   |   |       MainActivity.java
+|       |   |   |       OnScrollUpDownListener.java
+|       |   |   |       RegisterActivity.java
+|       |   |   |       shopping_cart.java
+|       |   |   |       SplashScreen.java
+|       |   |   |       
+|       |   |   +---adapter
+|       |   |   |       AuthorsAdapter.java
+|       |   |   |       BooksAdapter.java
+|       |   |   |       CategoryAdapter.java
+|       |   |   |       CustomList.java
+|       |   |   |       NavigationDrawerAdapter.java
+|       |   |   |       PrefManager.java
+|       |   |   |       SimpleRecyclerAdapter.java
+|       |   |   |       SquareImageView.java
+|       |   |   |       
+|       |   |   +---Controller
+|       |   |   |       Controller.java
+|       |   |   |       
+|       |   |   +---database
+|       |   |   |       DatabaseBookStore.java
+|       |   |   |       
+|       |   |   +---fragment
+|       |   |   |       AuthorsFragment.java
+|       |   |   |       BooksFragment.java
+|       |   |   |       CategoriesFragment.java
+|       |   |   |       OneFragment.java
+|       |   |   |       ProfileFragment.java
+|       |   |   |       ShopCartFragment.java
+|       |   |   |       ThreeFragment.java
+|       |   |   |       TwoFragment.java
+|       |   |   |       
+|       |   |   +---model
+|       |   |   |       Author.java
+|       |   |   |       Book.java
+|       |   |   |       Category.java
+|       |   |   |       DataContentProvider.java
+|       |   |   |       GeneralResponse.java
+|       |   |   |       LoginRespon.java
+|       |   |   |       NavDrawerItem.java
+|       |   |   |       Orders.java
+|       |   |   |       PlaceOrder.java
+|       |   |   |       PurchaseResponse.java
+|       |   |   |       RegisterRespon.java
+|       |   |   |       RequestUser.java
+|       |   |   |       ShoppingCartEntry.java
+|       |   |   |       UpdateUser.java
+|       |   |   |       User.java
+|       |   |   |       UserLogin.java
+|       |   |   |       
+|       |   |   +---provider
+|       |   |   |       GlobalData.java
+|       |   |   |       PrefManager.java
+|       |   |   |       SessionManager.java
+|       |   |   |       
+|       |   |   +---rest
+|       |   |   |       ApiClient.java
+|       |   |   |       ApiInterface.java
+|       |   |   |       
+|       |   |   \---util
+|       |   |           RoundedImage.java
+|       |   |           Util.java
+|       |   |           
+|       |   \---res
+|       |       +---anim
+|       |       |       bounce.xml
+|       |       |       fab1_hide.xml
+|       |       |       fab1_show.xml
+|       |       |       fade.xml
+|       |       |       zoom.xml
+|       |       |       
+|       |       +---drawable
+|       |       |       about.png
+|       |       |       account.png
+|       |       |       add.png
+|       |       |       android_purple.png
+|       |       |       art.png
+|       |       |       art1.png
+|       |       |       author.png
+|       |       |       background_user_profile.xml
+|       |       |       bg.jpg
+|       |       |       bg_profile.jpg
+|       |       |       biography.png
+|       |       |       biography1.png
+|       |       |       blue_scalloped_edge.png
+|       |       |       book.png
+|       |       |       books.png
+|       |       |       booksplash.png
+|       |       |       bookstack.png
+|       |       |       book_pink.png
+|       |       |       border_bluegreen.xml
+|       |       |       business.png
+|       |       |       business1.png
+|       |       |       button.png
+|       |       |       buy.png
+|       |       |       buy_pink.png
+|       |       |       cal.png
+|       |       |       calendar.png
+|       |       |       cancel.png
+|       |       |       cancel_blue.png
+|       |       |       cancel_button.png
+|       |       |       cart.png
+|       |       |       cart_pink.png
+|       |       |       checked.png
+|       |       |       checkout.png
+|       |       |       checkout_pink.png
+|       |       |       cloud.png
+|       |       |       cross_black.png
+|       |       |       divider.xml
+|       |       |       edit.png
+|       |       |       edituser.png
+|       |       |       edit_profile.png
+|       |       |       expand_arrow.png
+|       |       |       ex_book3.png
+|       |       |       ex_book4.png
+|       |       |       fantasy.png
+|       |       |       fantasy1.png
+|       |       |       fiction.png
+|       |       |       fiction1.png
+|       |       |       filter.png
+|       |       |       good_quality.png
+|       |       |       happy.png
+|       |       |       help.png
+|       |       |       help1.png
+|       |       |       ic_action_search.png
+|       |       |       ic_authors.png
+|       |       |       ic_book.png
+|       |       |       ic_books.png
+|       |       |       ic_categories.png
+|       |       |       ic_discount.png
+|       |       |       ic_logout.png
+|       |       |       ic_profile.png
+|       |       |       ic_profiles.png
+|       |       |       imageview_selector.xml
+|       |       |       info.png
+|       |       |       item_border.xml
+|       |       |       item_border_selected.xml
+|       |       |       kids.png
+|       |       |       kids1.png
+|       |       |       list.png
+|       |       |       list_selector.xml
+|       |       |       lock.png
+|       |       |       minus.png
+|       |       |       money.png
+|       |       |       music.png
+|       |       |       music1.png
+|       |       |       no_fiction.png
+|       |       |       no_fiction1.png
+|       |       |       nyemot.png
+|       |       |       ok.png
+|       |       |       paid.png
+|       |       |       person_ex.jpg
+|       |       |       plus.png
+|       |       |       price.png
+|       |       |       profile_ex.png
+|       |       |       purchase_order.png
+|       |       |       receipt.png
+|       |       |       recurring.png
+|       |       |       register_bg.jpg
+|       |       |       religion.png
+|       |       |       religion1.png
+|       |       |       romance.png
+|       |       |       romance1.png
+|       |       |       rounded_corner.xml
+|       |       |       rounded_corner_blue.xml
+|       |       |       sad_android.png
+|       |       |       sale.png
+|       |       |       scalloped_border_template.png
+|       |       |       sci_fi.png
+|       |       |       sci_fi1.png
+|       |       |       shop.png
+|       |       |       shop_pink.png
+|       |       |       sort_alpa.png
+|       |       |       summary.png
+|       |       |       taylor.jpg
+|       |       |       tick.png
+|       |       |       tick_black.png
+|       |       |       tick_blue.png
+|       |       |       triller.png
+|       |       |       triller1.png
+|       |       |       user.png
+|       |       |       user_circle.png
+|       |       |       user_prof.png
+|       |       |       yesno.png
+|       |       |       zoomin.png
+|       |       |       
+|       |       +---drawable-hdpi
+|       |       |       booksplash.png
+|       |       |       ex_book3.png
+|       |       |       ex_book4.png
+|       |       |       ic_action_search.png
+|       |       |       ic_authors.png
+|       |       |       ic_book.png
+|       |       |       ic_books.png
+|       |       |       ic_categories.png
+|       |       |       ic_discount.png
+|       |       |       ic_filter_empty.png
+|       |       |       ic_logout.png
+|       |       |       ic_profile.png
+|       |       |       ic_profiles.png
+|       |       |       lock.png
+|       |       |       nyemot.png
+|       |       |       user.png
+|       |       |       
+|       |       +---drawable-mdpi
+|       |       |       ic_action_search.png
+|       |       |       ic_profile.png
+|       |       |       lock.png
+|       |       |       user.png
+|       |       |       
+|       |       +---drawable-xhdpi
+|       |       |       ic_action_search.png
+|       |       |       ic_filter_empty.png
+|       |       |       ic_profile.png
+|       |       |       lock.png
+|       |       |       user.png
+|       |       |       
+|       |       +---drawable-xxhdpi
+|       |       |       ic_action_search.png
+|       |       |       ic_filter_empty.png
+|       |       |       ic_profile.png
+|       |       |       lock.png
+|       |       |       user.png
+|       |       |       
+|       |       +---layout
+|       |       |       activity_activity_end.xml
+|       |       |       activity_activity_start.xml
+|       |       |       activity_animate_toolbar.xml
+|       |       |       activity_detail__book.xml
+|       |       |       activity_loginform.xml
+|       |       |       activity_main.xml
+|       |       |       activity_register.xml
+|       |       |       activity_splashscreen.xml
+|       |       |       act_shopping_cart.xml
+|       |       |       book_list.xml
+|       |       |       book_recycler.xml
+|       |       |       connection.xml
+|       |       |       content_main.xml
+|       |       |       custom_actionbar.xml
+|       |       |       detail_author.xml
+|       |       |       detail_author_header.xml
+|       |       |       detail_item_listview.xml
+|       |       |       fab_layout.xml
+|       |       |       fragment_authors.xml
+|       |       |       fragment_books.xml
+|       |       |       fragment_categories.xml
+|       |       |       fragment_fragment_drawer.xml
+|       |       |       fragment_navigation_drawer.xml
+|       |       |       fragment_one.xml
+|       |       |       fragment_profile.xml
+|       |       |       fragment_three.xml
+|       |       |       fragment_two.xml
+|       |       |       grid_book.xml
+|       |       |       header_det_book.xml
+|       |       |       horizonatalscroll.xml
+|       |       |       horizontal_list.xml
+|       |       |       item_listview.xml
+|       |       |       item_row.xml
+|       |       |       layout_dialog.xml
+|       |       |       listview_item_shop.xml
+|       |       |       list_item_book.xml
+|       |       |       list_item_title_navigation.xml
+|       |       |       list_single.xml
+|       |       |       mylist.xml
+|       |       |       mylist_det_book.xml
+|       |       |       nav_drawer_row.xml
+|       |       |       notification_item.xml
+|       |       |       recyclerlist_item.xml
+|       |       |       recyclerview.xml
+|       |       |       shopping_cart_list.xml
+|       |       |       toolbar.xml
+|       |       |       welcome_side1.xml
+|       |       |       welcome_side2.xml
+|       |       |       
+|       |       +---menu
+|       |       |       menu_main.xml
+|       |       |       
+|       |       +---mipmap-hdpi
+|       |       |       ic_launcher.png
+|       |       |       
+|       |       +---mipmap-mdpi
+|       |       |       ic_launcher.png
+|       |       |       
+|       |       +---mipmap-xhdpi
+|       |       |       ic_launcher.png
+|       |       |       
+|       |       +---mipmap-xxhdpi
+|       |       |       ic_launcher.png
+|       |       |       
+|       |       +---mipmap-xxxhdpi
+|       |       |       ic_launcher.png
+|       |       |       
+|       |       +---values
+|       |       |       arrays.xml
+|       |       |       colors.xml
+|       |       |       dimens.xml
+|       |       |       strings.xml
+|       |       |       styles.xml
+|       |       |       
+|       |       +---values-v21
+|       |       |       styles.xml
+|       |       |       
+|       |       \---values-w820dp
+|       |               dimens.xml
+|       |               
+|       \---test
+|           \---java
+|               \---com
+|                   \---example
+|                       \---zxcvbn
+|                           \---bookstore
+|                                   ExampleUnitTest.java
+|                                   
++---build
+|   +---generated
+|   |       mockable-android-23.jar
+|   |       
+|   \---intermediates
+|       \---dex-cache
+|               cache.xml
+|               
+\---gradle
+    \---wrapper
+            gradle-wrapper.jar
+            gradle-wrapper.properties
+            
